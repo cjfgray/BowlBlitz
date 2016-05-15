@@ -7,7 +7,7 @@ class Bowl {
     Team team1
     Team team2
     Timestamp bowlDate
-    String season
+    Season season
     Team winner
 
     static constraints = {

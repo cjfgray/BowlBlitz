@@ -1,9 +1,5 @@
 package bowlblitz.commands
 
-import bowlblitz.Team
-
-import java.sql.Timestamp
-
 class BowlCommand {
     String name
     String team1

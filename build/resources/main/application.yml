@@ -120,3 +120,7 @@ grails:
 endpoints:
     jmx:
         unique-names: true
+
+---
+server:
+    context-path: '/BowlBlitz'

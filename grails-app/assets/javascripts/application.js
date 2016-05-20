@@ -7,7 +7,8 @@
 //
 //= require jquery-2.2.0.min
 //= require bootstrap
-//= require_tree .
+//= require angular.min.js
 //= require_tree angular-includes
+//= require app.js
 //= require_self
 

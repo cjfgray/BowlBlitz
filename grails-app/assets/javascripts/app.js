@@ -4,8 +4,11 @@ var bowlBlitz = angular.module('bowlBlitz', [
 ]).service('authService', function() {
     var authService = this;
     authService.authenticate = function() {
-        return false;
+        return true;
     }
+}).service('itemService', function() {
+    var authService = this;
+    authService.items = [];
 }).config(function($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise("/state1");
     $stateProvider
@@ -18,9 +21,10 @@ var bowlBlitz = angular.module('bowlBlitz', [
             url: "/list",
             templateUrl: "static/views/partials/state1.list.html",
             controllerAs: 'state1Ctrl',
-            controller: function() {
+            controller: function(itemService) {
                 var ctrl = this;
-                ctrl.items = ["A", "List", "Of", "Items"];
+                ctrl.items = itemService.items;
+                ctrl.addItem = function() {ctrl.items.push(ctrl.newItem);}
             },
             authenticate: false
         })
@@ -33,9 +37,10 @@ var bowlBlitz = angular.module('bowlBlitz', [
             url: "/list",
             templateUrl: "static/views/partials/state2.list.html",
             controllerAs: 'state2Ctrl',
-            controller: function() {
+            controller: function(itemService) {
                 var ctrl = this;
-                ctrl.things = ["A", "Set", "Of", "Things"];
+                ctrl.items = itemService.items;
+                ctrl.addItem = function() {ctrl.items.push(ctrl.newItem);}
             },
             authenticate: true
         });

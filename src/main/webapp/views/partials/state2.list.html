@@ -1,5 +1,7 @@
 <!-- partials/state2.list.html -->
 <h3>List of State 2 Things</h3>
 <ul>
-    <li ng-repeat="thing in state2Ctrl.things">{{ thing }}</li>
+    <li ng-repeat="item in state2Ctrl.items">{{ item }}</li>
+    <input type="text" ng-model="state2Ctrl.newItem">
+    <button ng-click="state2Ctrl.addItem()">add item</button>
 </ul>

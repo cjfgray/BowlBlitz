@@ -1,10 +1,20 @@
 <!-- partials/state2.list.html -->
 <h3>List of State 2 Things</h3>
-<ul>
-    <li ng-repeat="bowl in state2Ctrl.bowls()">
-        <div>{{bowl.name}} - {{bowl.team1.name}} - {{bowl.team1.name}}</div>
-        <div>{{bowl.bowlDate}} - {{bowl.season.year}}</div>
-    </li>
-    <!--<input type="text" ng-model="state2Ctrl.newItem">-->
-    <!--<button ng-click="state2Ctrl.addItem()">add item</button>-->
-</ul>
+<div class="row">
+    <div class="col-md-6">
+        <ul>
+            <li ng-repeat="bowl in state2Ctrl.bowls()">
+                <div>{{bowl.name}} - {{bowl.team1.name}} - {{bowl.team1.name}}</div>
+                <div>{{bowl.bowlDate}} - {{bowl.season.year}}</div>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <input type="text" ng-model="state2Ctrl.bowl.season.year">
+        <input type="text" ng-model="state2Ctrl.bowl.name">
+        <input type="text" ng-model="state2Ctrl.bowl.team1.name">
+        <input type="text" ng-model="state2Ctrl.bowl.team2.name">
+        <input type="text" ng-model="state2Ctrl.bowl.bowlDate">
+        <button ng-click="state2Ctrl.addBowl()">add item</button>
+    </div>
+</div>

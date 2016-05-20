@@ -13,10 +13,13 @@ var bowlBlitz = angular.module('bowlBlitz', [
         function(result){
             itemService.bowls = result.data;
         }
-    )
+    );
     itemService.getbowls = function() {
         return itemService.bowls;
-    }
+    };
+    itemService.addBowl = function(bowl) {
+        itemService.bowls.push(bowl);
+    };
 }).config(function($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise("/state1");
     $stateProvider
@@ -31,8 +34,9 @@ var bowlBlitz = angular.module('bowlBlitz', [
             controllerAs: 'state1Ctrl',
             controller: function(itemService) {
                 var ctrl = this;
+                ctrl.bowl = {name: "",team1: {name: ""},team2: {name: ""},season: {year: ""},bowlDate: ""};
                 ctrl.bowls = itemService.getbowls;
-                //ctrl.addItem = function() {ctrl.bowls.push(ctrl.newItem);}
+                ctrl.addBowl = function() {itemService.addBowl(ctrl.bowl);}
             },
             authenticate: false
         })
@@ -47,8 +51,9 @@ var bowlBlitz = angular.module('bowlBlitz', [
             controllerAs: 'state2Ctrl',
             controller: function(itemService) {
                 var ctrl = this;
+                ctrl.bowl = {name: "",team1: {name: ""},team2: {name: ""},season: {year: ""},bowlDate: ""};
                 ctrl.bowls = itemService.getbowls;
-                //ctrl.addItem = function() {ctrl.items.push(ctrl.newItem);}
+                ctrl.addBowl = function() {itemService.addBowl(ctrl.bowl);}
             },
             authenticate: true
         });

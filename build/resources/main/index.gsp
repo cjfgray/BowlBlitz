@@ -2,6 +2,7 @@
 <html ng-app="bowlBlitz">
 <head>
     <asset:javascript src="application.js"/>
+    <asset:stylesheet src="bootstrap.css"/>
 </head>
 <body>
 <body>

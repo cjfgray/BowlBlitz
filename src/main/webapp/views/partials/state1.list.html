@@ -10,12 +10,11 @@
         </ul>
     </div>
     <div class="col-md-6">
-        <input type="text" ng-model="state1Ctrl.season">
-        <input type="text" ng-model="state1Ctrl.name">
-        <input type="text" ng-model="state1Ctrl.team1.name">
-        <input type="text" ng-model="state1Ctrl.team2.name">
-        <input type="text" ng-model="state1Ctrl.season.year">
-        <input type="text" ng-model="state1Ctrl.bowlDate">
-        <button ng-click="state2Ctrl.addBowl()">add item</button>
+        <input type="text" ng-model="state1Ctrl.bowl.season.year">
+        <input type="text" ng-model="state1Ctrl.bowl.name">
+        <input type="text" ng-model="state1Ctrl.bowl.team1.name">
+        <input type="text" ng-model="state1Ctrl.bowl.team2.name">
+        <input type="text" ng-model="state1Ctrl.bowl.bowlDate">
+        <button ng-click="state1Ctrl.addBowl()">add item</button>
     </div>
 </div>

@@ -6,9 +6,17 @@ var bowlBlitz = angular.module('bowlBlitz', [
     authService.authenticate = function() {
         return true;
     }
-}).service('itemService', function() {
-    var authService = this;
-    authService.items = [];
+}).service('itemService', function($http) {
+    var itemService = this;
+    itemService.bowls = [];
+    $http.get('/BowlBlitz/api/bowl/list/2016').then(
+        function(result){
+            itemService.bowls = result.data;
+        }
+    )
+    itemService.getbowls = function() {
+        return itemService.bowls;
+    }
 }).config(function($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise("/state1");
     $stateProvider
@@ -23,8 +31,8 @@ var bowlBlitz = angular.module('bowlBlitz', [
             controllerAs: 'state1Ctrl',
             controller: function(itemService) {
                 var ctrl = this;
-                ctrl.items = itemService.items;
-                ctrl.addItem = function() {ctrl.items.push(ctrl.newItem);}
+                ctrl.bowls = itemService.getbowls;
+                //ctrl.addItem = function() {ctrl.bowls.push(ctrl.newItem);}
             },
             authenticate: false
         })
@@ -39,8 +47,8 @@ var bowlBlitz = angular.module('bowlBlitz', [
             controllerAs: 'state2Ctrl',
             controller: function(itemService) {
                 var ctrl = this;
-                ctrl.items = itemService.items;
-                ctrl.addItem = function() {ctrl.items.push(ctrl.newItem);}
+                ctrl.bowls = itemService.getbowls;
+                //ctrl.addItem = function() {ctrl.items.push(ctrl.newItem);}
             },
             authenticate: true
         });

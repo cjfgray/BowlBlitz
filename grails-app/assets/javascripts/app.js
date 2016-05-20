@@ -1,12 +1,18 @@
 var bowlBlitz = angular.module('bowlBlitz', [
     'ui.bootstrap',
     'ui.router'
-]).config(function($stateProvider, $urlRouterProvider) {
+]).service('authService', function() {
+    var authService = this;
+    authService.authenticate = function() {
+        return false;
+    }
+}).config(function($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise("/state1");
     $stateProvider
         .state('state1', {
             url: "/state1",
-            templateUrl: "static/views/partials/state1.html"
+            templateUrl: "static/views/partials/state1.html",
+            authenticate: false
         })
         .state('state1.list', {
             url: "/list",
@@ -15,11 +21,13 @@ var bowlBlitz = angular.module('bowlBlitz', [
             controller: function() {
                 var ctrl = this;
                 ctrl.items = ["A", "List", "Of", "Items"];
-            }
+            },
+            authenticate: false
         })
         .state('state2', {
             url: "/state2",
-            templateUrl: "static/views/partials/state2.html"
+            templateUrl: "static/views/partials/state2.html",
+            authenticate: false
         })
         .state('state2.list', {
             url: "/list",
@@ -28,6 +36,15 @@ var bowlBlitz = angular.module('bowlBlitz', [
             controller: function() {
                 var ctrl = this;
                 ctrl.things = ["A", "Set", "Of", "Things"];
-            }
+            },
+            authenticate: true
         });
-});;
+}).run(function($rootScope, $state, authService) {
+    $rootScope.$on("$stateChangeStart", function(event, toState, toParams, fromState, fromParams){
+        if (toState.authenticate && !authService.authenticate()){
+            console.log('auth failed');
+            $state.transitionTo("state1");
+            event.preventDefault();
+        }
+    });
+});

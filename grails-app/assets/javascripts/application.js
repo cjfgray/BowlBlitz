@@ -1,14 +1,11 @@
-// This is a manifest file that'll be compiled into application.js.
-//
-// Any JavaScript file within this directory can be referenced here using a relative path.
-//
-// You're free to add application-wide JavaScript to this file, but it's generally better
-// to create separate JavaScript files as needed.
-//
-//= require jquery-2.2.0.min
-//= require bootstrap
-//= require angular.min.js
+//= require vendor/jquery-2.2.0.min.js
+//= require vendor/bootstrap.js
+//= require vendor/angular.min.js
 //= require_tree angular-includes
 //= require app.js
+//= require_tree services
+//= require_tree login
+//= require_tree state1
+//= require_tree state2
 //= require_self
 

@@ -1,0 +1,106 @@
+@mainColor:#00695c;
+.white-text{
+  color:#FFF;
+}
+
+a:focus{
+  color:#f2f2f2;
+}
+
+
+.btn-primary{
+  border:none;
+  &:focus{
+    background-color:lighten(@mainColor,10%);
+  }
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.btn{
+  color:#f2f2f2;
+  font-weight:bold;
+  -webkit-transition:.75s;
+  -moz-transition:.75s;
+  -ms-transition:.75s;
+  -o-transition:.75s;
+  transition:.75s;
+  &:hover{
+    background-color:lighten(@mainColor,5%);
+    color:#FFF;
+  }
+}
+
+.btn-primary{
+  background-color:@mainColor;
+}
+
+.btn-dark {
+  border-radius: 0;
+  color: #fff;
+  background-color: rgba(0,0,0,0.75);
+}
+
+
+.text-vertical-center {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+  }
+}
+
+
+
+.header {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url('/BowlBlitz/assets/bg.jpg') no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  .overlay{
+    background-color: rgba(0, 105, 92,.85);
+    height:100%;
+    width:100%;
+  }
+
+}
+
+navbar{
+  display:none;
+}
+
+footer{
+  display:none;
+}
+
+.nav-tabs{
+  li{
+    float:left;
+    padding:15px;
+    font-size:24px;
+    &.active{
+      background-color: @mainColor;
+      a{
+        color:#FFF;
+      }
+    }
+  }
+}
+

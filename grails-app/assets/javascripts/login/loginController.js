@@ -29,7 +29,7 @@ bowlBlitz.controller('loginController', ['$uibModal', 'authService', function ($
             controller: ['$uibModalInstance', function ($uibModalInstance) {
                 var loginModal = this;
             }],
-          size: 'md'
+            size: 'md'
         });
     };
 

@@ -1,0 +1,41 @@
+<div class="row">
+    <div class="col-lg-2">
+        <div class="form-group">
+            <label for="name">Bowl Name/Location</label>
+            <input id="name" type="text" class="form-control" ng-model="admin.bowl.name">
+        </div>
+    </div>
+    <div class="col-lg-2">
+        <div class="form-group">
+            <label for="team1">Team 1</label>
+            <input id="team1" type="text" class="form-control" ng-model="admin.bowl.team1">
+        </div>
+    </div>
+    <div class="col-lg-2">
+        <div class="form-group">
+            <label for="team2">Team 2</label>
+            <input id="team2" type="text" class="form-control" ng-model="admin.bowl.team2">
+        </div>
+    </div>
+    <div class="col-lg-2">
+        <div class="form-group">
+            <label for="date">Date</label>
+            <input id="date" type="text" class="form-control" ng-model="admin.bowl.date">
+        </div>
+    </div>
+    <div class="col-lg-2">
+        <div class="form-group">
+            <label for="season">Season</label>
+            <input id="season" type="text" class="form-control" ng-model="admin.bowl.season">
+        </div>
+    </div>
+    <div class="col-lg-2">
+        <div class="form-group">
+            </br>
+            <a href="" class="btn btn-primary" ng-click="admin.createBowl()">Add Bowl</a>
+        </div>
+    </div>
+    <div>
+        <pre>{{admin.bowls | json}}</pre>
+    </div>
+</div>

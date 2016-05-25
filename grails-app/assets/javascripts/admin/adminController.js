@@ -10,19 +10,19 @@ bowlBlitz.config(function ($stateProvider) {
     var adminCtrl = this;
     adminCtrl.createBowl = function () {
         console.log(adminCtrl.bowl);
-        //bowlService.addBowl(adminCtrl.bowl).then(
-        //    function success(response) {
-        //        adminCtrl.bowls.push(response.data);
-        //    },
-        //    function error(response) {
-        //        console.log(response);
-        //    }
-        //)
+        bowlService.addBowl(adminCtrl.bowl).then(
+            function success(response) {
+                adminCtrl.bowls.push(response.data);
+            },
+            function error(response) {
+                console.log(response);
+            }
+        )
     };
 
     bowlService.listBowls().then(
         function success(result) {
-            adminCtrl.bowls = result.data;
+            adminCtrl.bowls = result;
         }
     )
 });

@@ -3,6 +3,8 @@
 <head>
     <asset:javascript src="application.js"/>
     <asset:stylesheet src="vendor/bootstrap.css"/>
+    <asset:stylesheet src="application.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
     <h1>Bowl Blitz</h1>
     <hr/>
 </head>

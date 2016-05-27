@@ -8,7 +8,7 @@ a:focus {
   border: none;
 }
 .btn-primary:focus {
-  background-color: #009c89;
+  background-color: #f18f91;
 }
 html,
 body {
@@ -18,7 +18,7 @@ body {
 body {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #222;
-  color: #FFF;
+  color: #DDD;
 }
 .btn {
   color: #f2f2f2;
@@ -30,11 +30,11 @@ body {
   transition: .75s;
 }
 .btn:hover {
-  background-color: #008372;
+  background-color: #ef787a;
   color: #FFF;
 }
 .btn-primary {
-  background-color: #00695c;
+  background-color: #ec6164;
 }
 .btn-dark {
   border-radius: 0;
@@ -64,7 +64,8 @@ body {
   -o-background-size: cover;
 }
 .header .overlay {
-  background-color: rgba(0, 105, 92, 0.85);
+  background-color: #ec6164;
+  opacity: .85;
   height: 100%;
   width: 100%;
 }
@@ -80,7 +81,7 @@ footer {
   font-size: 24px;
 }
 .nav-tabs li.active {
-  background-color: #00695c;
+  background-color: #ec6164;
 }
 .nav-tabs li.active a {
   color: #FFF;

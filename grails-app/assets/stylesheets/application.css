@@ -63,20 +63,9 @@ h4{
     cursor:pointer;
 }
 
-
 h2 {
     color: lavender;
     margin: 30px;
-}
-
-a {
-    margin: 60px;
-    color: #55505E;
-}
-
-a:hover {
-    color: #7a7486;
-    text-decoration: none;
 }
 
 .scoreboard-container .active {
@@ -93,6 +82,16 @@ a:hover {
     border-radius: 0%;
     color: #55505E;
     height: 55px;
+}
+
+.scoreboard-container a {
+    margin: 60px;
+    color: #55505E;
+}
+
+.scoreboard-container a:hover {
+    color: #7a7486;
+    text-decoration: none;
 }
 
 hr {

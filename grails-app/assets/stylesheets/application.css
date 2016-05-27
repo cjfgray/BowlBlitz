@@ -14,8 +14,12 @@
 *= require_self
 */
 
+.text-white{
+    color:#FFF;
+}
+
 body {
-    background-color:#34343D;
+    background-color:#1F1C26;
     color:#E8E8E8;
     font-family: 'Poppins', sans-serif;
 }
@@ -85,8 +89,7 @@ a:hover {
 .scoreboard-card {
     margin: 0px;
     background-color: transparent!important;
-    border-width: 1px 0px 1px 0px;
-    border-color: #1F1C26;
+    border:1px solid #1F1C26;
     border-radius: 0%;
     color: #55505E;
     height: 55px;

@@ -1,21 +1,20 @@
 bowlBlitz.config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
-        .state('state2', {
-            url: "/state2",
-            templateUrl: "static/views/partials/state2.html",
+        .state('scoreboard', {
+            url: "/scoreboard",
+            templateUrl: "static/views/partials/scoreboard.html",
             controller: 'scoreboardCtrl as scoreboard',
             authenticate: false
         })
-        .state('state2.list', {
+        .state('scoreboard.list', {
             url: "/list",
-            templateUrl: "static/views/partials/state2.list.html",
+            templateUrl: "static/views/partials/scoreboard.list.html",
             controller: 'scoreboardCtrl as scoreboard',
             authenticate: false
         })
-}).controller('scoreboardCtrl', ['itemService', function (itemService) {
+}).controller('scoreboardCtrl', function () {
     var scoreboard = this;
     scoreboard.bowl = {name: "", team1: {name: ""}, team2: {name: ""}, season: {year: ""}, bowlDate: ""};
-    scoreboard.bowls = itemService.getbowls;
     scoreboard.total = 50;
     scoreboard.users = [
         {
@@ -35,4 +34,4 @@ bowlBlitz.config(function ($stateProvider, $urlRouterProvider) {
             wins: 15,
             losses: 35
         }]
-}]);
+});

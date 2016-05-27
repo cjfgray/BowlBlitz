@@ -4,9 +4,10 @@
 //= require_tree angular-includes
 //= require app.js
 //= require_tree services
+//= require_tree directives
 //= require_tree login
 //= require_tree admin
 //= require_tree state1
-//= require_tree state2
+//= require_tree scoreboard
 //= require_self
 

@@ -69,20 +69,3 @@ body {
   height: 100%;
   width: 100%;
 }
-navbar {
-  display: none;
-}
-footer {
-  display: none;
-}
-.nav-tabs li {
-  float: left;
-  padding: 15px;
-  font-size: 24px;
-}
-.nav-tabs li.active {
-  background-color: #ec6164;
-}
-.nav-tabs li.active a {
-  color: #FFF;
-}

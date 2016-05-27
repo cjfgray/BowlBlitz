@@ -12,10 +12,7 @@
             <hr />
         </div>
         <div class="col-lg-10 col-lg-offset-1">
-            <div class="scoreboard-card card card-block" ng-repeat="person in scoreboard.users | orderBy:'-wins'" ng-style="{'background': 'linear-gradient(to right, #8FF9FF ' + {{(person.wins / scoreboard.total)*100}} + '%, #1F1C26 ' + {{(person.wins / scoreboard.total)*100}} + '%'}">
-                <span>{{person.name}}</span>
-                <span class="pull-right">Win: {{person.wins}} | Lose: {{person.losses}}</span>
-            </div>
+           <user-scoreboard ng-repeat="person in scoreboard.users | orderBy:'-wins'" user="person"></user-scoreboard>
         </div>
     </div>
 </div>

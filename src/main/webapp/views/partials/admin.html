@@ -39,24 +39,7 @@
     </div>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="card bowl-card" style="width:300px;display:inline-block;margin:10px;"
-                 ng-repeat="bowl in adminCtrl.bowls">
-
-                <!--TODO:Added a winner flag to each isolated bowl scope. See what you think.-->
-                <!--<pre>
-                    {{bowl|json}}
-                </pre>-->
-                
-                <div class="card-block">
-                    <h5 class="card-title">{{bowl.name}} - CAMERON I NEED A LOCATION</h5>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 clickable" ng-click="bowl.winner = bowl.team1.name">
-                        <h4 ng-class="{active : bowl.winner === bowl.team1.name}">{{bowl.team1.name}}</h4>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 clickable" ng-click="bowl.winner = bowl.team2.name">
-                        <h4 ng-class="{active : bowl.winner === bowl.team2.name}">{{bowl.team2.name}}</h4>
-                    </div>
-                </div>
-            </div>
+            <bowl-card ng-repeat="bowl in adminCtrl.bowls" bowl="bowl"></bowl-card>
         </div>
     </div>
 </div>

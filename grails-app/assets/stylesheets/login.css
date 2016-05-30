@@ -1,5 +1,4 @@
 
-
 body{ 
   background: linear-gradient(to bottom, rgba(248,205,218,.75), rgba(74,86,157,.75)), url('https://farm4.staticflickr.com/3943/15576666065_40918da236_b.jpg') no-repeat;
   background-size: cover;
@@ -14,7 +13,6 @@ body{
   background-color: white;
   border: none;
   border-radius: 0px;
-  box-shadow: 0px 7px 30px, 0px -4px 30px;
 }
 
 .signup-card{
@@ -158,3 +156,76 @@ label{
 }
 
  
+=======
+.white-text {
+  color: #FFF;
+}
+a:focus {
+  color: #f2f2f2;
+}
+.btn-primary {
+  border: none;
+}
+.btn-primary:focus {
+  background-color: #f18f91;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #222;
+  color: #DDD;
+}
+.btn {
+  color: #f2f2f2;
+  font-weight: bold;
+  -webkit-transition: .75s;
+  -moz-transition: .75s;
+  -ms-transition: .75s;
+  -o-transition: .75s;
+  transition: .75s;
+}
+.btn:hover {
+  background-color: #ef787a;
+  color: #FFF;
+}
+.btn-primary {
+  background-color: #ec6164;
+}
+.btn-dark {
+  border-radius: 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.text-vertical-center {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vertical-center h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+}
+.header {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url('/BowlBlitz/assets/bg.jpg') no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.header .overlay {
+  background-color: #ec6164;
+  opacity: .85;
+  height: 100%;
+  width: 100%;
+}
+

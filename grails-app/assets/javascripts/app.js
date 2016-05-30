@@ -1,6 +1,7 @@
 var bowlBlitz = angular.module('bowlBlitz', [
     'ui.bootstrap',
-    'ui.router'
+    'ui.router',
+    'ngAnimate'
 ]).config(function($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise("/state1");
 }).run(['$rootScope', '$state', 'authService', function($rootScope, $state, authService) {

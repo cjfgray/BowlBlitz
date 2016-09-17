@@ -1,5 +1,6 @@
 import bowlblitz.Bowl
 import bowlblitz.DevelopmentData
+import bowlblitz.Location
 import bowlblitz.Season
 import bowlblitz.Team
 import grails.converters.JSON
@@ -30,7 +31,16 @@ class BootStrap {
                     team1: bowl.team1,
                     team2: bowl.team2,
                     bowlDate: bowl.bowlDate,
-                    season: bowl.season
+                    season: bowl.season,
+                    location: bowl.location
+            ]
+        }
+
+        JSON.registerObjectMarshaller(Location) { Location location ->
+            [
+                    stadiumName: location.stadiumName,
+                    city: location.city,
+                    state: location.state
             ]
         }
 

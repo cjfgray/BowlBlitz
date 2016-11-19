@@ -1,4 +1,4 @@
-ppackage bowlblitz
+package bowlblitz
 
 class UrlMappings {
 

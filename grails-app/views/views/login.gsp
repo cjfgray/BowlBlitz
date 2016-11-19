@@ -1,5 +1,5 @@
 <meta name="layout" content="main">
-<div ng-controller="loginController as loginCtrl">
+<div class="login" ng-controller="loginController as loginCtrl">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-8 col-lg-8 col-lg-offset-2 col-xl-8 hidden-sm-down">

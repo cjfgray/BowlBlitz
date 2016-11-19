@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <title> <g:layoutTitle default="Grails"/></title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <asset:stylesheet src="application.css"/>
     <bowl-blitz-nav></bowl-blitz-nav>
 </head>
 <body>
-
     <g:layoutBody/>
     <asset:javascript src="application.js"/>
 </body>

@@ -1,4 +1,4 @@
-
+<meta name="layout" content="main">
 <div class="container-fluid scoreboard-container">
     <div class="row">
         <div class="col-lg-12 text-center">
@@ -13,7 +13,7 @@
             <hr />
         </div>
         <div class="col-lg-10 col-lg-offset-1">
-           <user-scoreboard ng-repeat="person in scoreboard.users | orderBy:'-wins'" user="person"></user-scoreboard>
+            <user-scoreboard ng-repeat="person in scoreboard.users | orderBy:'-wins'" user="person"></user-scoreboard>
         </div>
     </div>
 </div>

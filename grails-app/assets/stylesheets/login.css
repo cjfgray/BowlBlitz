@@ -12,7 +12,7 @@ body{
   position: absolute;
   background-color: white;
   border: none;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 .signup-card{

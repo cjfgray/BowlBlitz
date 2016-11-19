@@ -1,13 +1,4 @@
-bowlBlitz.config(function ($stateProvider) {
-    $stateProvider
-        .state('admin', {
-            url: '/admin',
-            templateUrl: 'static/views/partials/admin.html',
-            controller: 'adminController as adminCtrl',
-            authenticate: false,
-            admin: true
-        });
-}).controller('adminController', function (bowlService) {
+bowlBlitz.controller('adminController', function (bowlService) {
     var adminCtrl = this;
     adminCtrl.createBowl = function () {
         console.log(adminCtrl.bowl);

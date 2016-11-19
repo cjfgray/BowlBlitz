@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar server/webapp-runner.jar --port $PORT target/*.war
+web: cd build ; java $JAVA_OPTS -Xmx750m -Dgrails.env=prod -jar ../build/server/webapp-runner-*.jar --expand-war --port $PORT libs/*.war

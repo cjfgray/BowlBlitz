@@ -1,2 +1,46 @@
 <meta name="layout" content="main">
-<h1>This is the Admin Page</h1>
+<div class="container-fluid" ng-controller="adminController as adminCtrl">
+    <div class="row">
+        <div class="col-lg-2">
+            <div class="form-group">
+                <label for="name">Bowl Name/Location</label>
+                <input id="name" type="text" class="bowl-form" ng-model="adminCtrl.bowl.name">
+            </div>
+        </div>
+        <div class="col-lg-2">
+            <div class="form-group">
+                <label for="team1">Team 1</label>
+                <input id="team1" type="text" class="bowl-form" ng-model="adminCtrl.bowl.team1">
+            </div>
+        </div>
+        <div class="col-lg-2">
+            <div class="form-group">
+                <label for="team2">Team 2</label>
+                <input id="team2" type="text" class="bowl-form" ng-model="adminCtrl.bowl.team2">
+            </div>
+        </div>
+        <div class="col-lg-2">
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input id="date" type="text" class="bowl-form" ng-model="adminCtrl.bowl.bowlDate">
+            </div>
+        </div>
+        <div class="col-lg-2">
+            <div class="form-group">
+                <label for="season">Season</label>
+                <input id="season" type="text" class="bowl-form" ng-model="adminCtrl.bowl.season">
+            </div>
+        </div>
+        <div class="col-lg-2">
+            <div class="form-group">
+                </br>
+                <a href="" class="btn btn-primary" ng-click="adminCtrl.createBowl()">Add Bowl</a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <bowl-card ng-repeat="bowl in adminCtrl.bowls" bowl="bowl"></bowl-card>
+        </div>
+    </div>
+</div>

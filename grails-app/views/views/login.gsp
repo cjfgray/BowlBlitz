@@ -44,7 +44,7 @@
                             </div>
                             <button type="button" class="btn btn-info-outline btn-block action-button">Sign Up</button>
                         </div>
-                        <div class="quesiton" ng-show="loginCtrl.type">
+                        <div class="question" ng-show="loginCtrl.type">
                             <h4>Don't have an account?</h4>
                             <button ng-click="loginCtrl.type = !loginCtrl.type" class="btn btn-info-outline card-change-button">Sign Up</button>
                         </div>
@@ -54,7 +54,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-xs-12 col-sm-12 hidden-md-up">
+        <div class="col-xs-12 col-sm-12 hidden-lg">
             <div class="buttons">
                 <button ng-click="loginCtrl.type = true" class="btn btn-lg btn-info-outline mobile-change-button">Login</button>
                 <button ng-click="loginCtrl.type = false" class="btn btn-lg btn-info-outline mobile-change-button">Signup</button>

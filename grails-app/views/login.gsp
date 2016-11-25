@@ -2,7 +2,6 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <asset:javascript src="application.js"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <asset:stylesheet src="application.css"/>
 </head>
@@ -23,11 +22,11 @@
                         <input type="text" id="password" class="form-control desktop-input" placeholder="Password">
                     </div>
                 </div>
-              <button type="button" class="btn btn-outline-info btn-block action-button">Login</button>
+              <button type="button" class="btn btn-info-outline btn-block action-button">Login</button>
             </div>
             <div class="question" ng-show="!loginCtrl.type">
               <h4>Have an account?</h4>
-              <button ng-click="loginCtrl.type = !loginCtrl.type" class="btn btn-outline-info card-change-button">Login</button>
+              <button ng-click="loginCtrl.type = !loginCtrl.type" class="btn btn-info-outline card-change-button">Login</button>
             </div>
           </div>
           <div class="col-md-6 test col-lg-6 col-xl-6 hidden-sm-down">
@@ -50,11 +49,11 @@
                         <input type="text" id="confirmPassword" class="form-control desktop-input" placeholder="Confirm Password">
                     </div>
                 </div>
-                <button type="button" class="btn btn-outline-info btn-block action-button">Sign Up</button>
+                <button type="button" class="btn btn-info-outline btn-block action-button">Sign Up</button>
             </div>
             <div class="quesiton" ng-show="loginCtrl.type">
               <h4>Don't have an account?</h4>
-              <button ng-click="loginCtrl.type = !loginCtrl.type" class="btn btn-outline-info card-change-button">Sign Up</button>
+              <button ng-click="loginCtrl.type = !loginCtrl.type" class="btn btn-info-outline card-change-button">Sign Up</button>
             </div>
           </div>
          </div>
@@ -95,8 +94,8 @@
         </div> -->
         <div class="col-xs-6 col-sm-6 hidden-md-up mobile">
             <div class="buttons">
-                <button ng-click="loginCtrl.type = true" class="btn btn-lg btn-outline-info mobile-change-button">Login</button>
-                <button ng-click="loginCtrl.type = false" class="btn btn-lg btn-outline-info mobile-change-button">Signup</button>
+                <button ng-click="loginCtrl.type = true" class="btn btn-lg btn-info-outline mobile-change-button">Login</button>
+                <button ng-click="loginCtrl.type = false" class="btn btn-lg btn-info-outline mobile-change-button">Signup</button>
             </div>
             <div ng-show="loginCtrl.type" class="login-mobile">
                <div class="input-group">

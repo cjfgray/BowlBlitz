@@ -1,5 +1,6 @@
-bowlBlitz.controller('loginController', ['$uibModal', 'authService', function ($uibModal, authService) {
+bowlBlitz.controller('loginController', ['$uibModal', 'authService', function () {
     var loginCtrl = this;
+    loginCtrl.type = true;
     $('nav').hide();
     loginCtrl.type = true;
     loginCtrl.openSignUp = function () {

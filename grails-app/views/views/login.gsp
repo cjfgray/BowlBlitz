@@ -1,11 +1,12 @@
 <meta name="layout" content="main">
 <div class="login" ng-controller="loginController as loginCtrl">
+    <h1>{{loginCtrl.type}}</h1>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-8 col-lg-8 col-lg-offset-2 col-xl-8 hidden-sm-down">
                 <div class="row background">
                     <div class="col-md-6 col-lg-6 col-xl-6 hidden-sm-down">
-                        <div ng-show="loginCtrl.type" class="card login-card card-block hide">
+                        <div ng-show="loginCtrl.type" class="card login-card card-block">
                             <div class="row">
                                 <h3>Login</h3>
                                 <div class="input-group col-md-12 col-lg-12 col-xl-12">
@@ -23,7 +24,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 test col-lg-6 col-xl-6 hidden-sm-down">
-                        <div ng-show="!loginCtrl.type" class="card card-block signup-card hidden">
+                        <div ng-show="!loginCtrl.type" class="card card-block signup-card">
                             <div class="row">
                                 <h3>Signup</h3>
                                 <div class="input-group col-md-12 col-lg-12 col-xl-12">
@@ -91,7 +92,6 @@
                     <input type="text" id="confirmPassword" class="form-control input-mobile">
                 </div>
             </div>
-            <p>{{loginCtrl.type}}</p>
         </div>
     </div>
 </div>

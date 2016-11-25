@@ -4,6 +4,14 @@
 *= require_self
 */
 
+.inline{
+    display:inline-block;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
 .text-white{
     color:#FFF;
 }
@@ -36,11 +44,17 @@ body {
 .bowl-card{
     background-color: transparent;
     color: white;
-    border: 4px solid #EC6164;
+    padding:5px;
 }
 
-h4{
-    padding:10px
+.bowl-team h4{
+    padding: 15px;
+    transition: 0.35s ease-in;
+    border: 2px solid transparent;
+}
+
+.bowl-card .card-block {
+    border: 4px solid #EC6164;
 }
 
 .bowl-card .active{

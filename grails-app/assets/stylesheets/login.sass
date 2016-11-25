@@ -1,0 +1,238 @@
+@import url(https://fonts.googleapis.com/css?family=Prompt:300)
+
+$color-one: #D6FCFD
+$color-two: lighten(tomato, 15%)
+$color-three: #8FF9FF
+
+body
+  background: linear-gradient(to bottom, rgba(0,14,31,1), rgba(45,28,59,1))
+  background-size: cover
+  background-position: center
+  font-family: 'Prompt', sans-serif
+
+
+.signup-card, .login-card
+  height: 300px
+  width: 350px
+  position: absolute
+  background-color: rgba(0,0,0,.2)
+  border: none
+  border-radius: 0px
+  //box-shadow: 0px 7px 30px, 0px -4px 30px
+
+.signup-card
+  margin-right: 25px
+
+.login-card
+  margin-left: 45px
+
+.question
+  position: absolute
+  margin: 35px
+  
+.background
+  background-color: rgba(0,0,0,0.2)
+  height: 300px
+  margin-top: 15%
+  border-radius: 15px
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5)
+
+h3
+  color: $color-one
+  margin: 10px 0 10px 40px
+  
+h4
+  margin-top: 25px
+  color: $color-two
+  
+.btn-info-outline
+  margin-top: 30px 
+  
+.card-change-button
+  border-color: $color-two
+  color: $color-two
+  outline: none
+
+.card-change-button:hover, .card-change-button:focus, .card-change-button:active
+  border-color: $color-two
+  background-color: $color-two
+  color: black
+  outline: none
+
+.action-button
+  border-color: $color-one
+  color: $color-one
+
+.action-button:hover, .action-button:focus
+  outline: none
+  border-color: $color-one
+  background-color: $color-one
+  color: black
+
+.mobile-change-button
+  margin: 50px 0 20px 0
+  border: none
+  color: snow
+
+.mobile-change-button:hover, .mobile-change-button:focus
+  color: $color-two
+  border-bottom: 1px solid $color-two
+  border-radius: 0px
+  border-top: none
+  border-left: none
+  border-right: none
+  background-color: transparent 
+  outline: none 
+
+.input-mobile
+  border: none
+  border-radius: 25px!important
+  background-color: rgba(0,0,0,.3)
+  margin-bottom: 20px!important
+  width: 320px!important
+  color: snow
+
+.desktop-input
+  border: none
+  border-bottom: 1px solid #444
+  border-radius: 0px
+  background-color: transparent
+  font-size: 12px
+  margin-top: 15px
+  color: $color-one
+
+.desktop-input:focus
+  border-bottom: 1px solid $color-one
+
+label
+  color: lavender
+
+
+/*//--------------------------------------------------//
+//                    Animations                     //
+//--------------------------------------------------//*/
+.hide.ng-hide
+  opacity: 0
+  transform: translate(175px,0)
+ 
+
+.hide.ng-hide-remove
+.hide.ng-hide-add 
+  display: block!important
+
+.hide.ng-hide-remove
+  transition: all linear .1s
+
+.hide.ng-hide-add
+  transition: all linear .1s
+.hidden.ng-hide 
+  opacity: 0
+  transform: translate(-175px,0)
+.hidden.ng-hide-remove
+.hidden.ng-hide-add 
+  display: block!important
+.hidden.ng-hide-remove
+  transition: all linear .1s
+.hidden.ng-hide-add
+  transition: all linear .1s  
+
+
+/*//--------------------------------------------------//
+//                     Mobile Nav                    //
+//--------------------------------------------------//*/
+$main: #00a1be
+$dark-blue: #03000A
+
+$menu-items: 3
+
+a
+  color: inherit
+
+%filter
+  filter: url('#goo')
+
+%circle
+  background: $main
+  border-radius: 100%
+  width: 60px
+  height: 60px
+  position: absolute
+  color: white
+  transition: transform ease-out 200ms
+
+.open
+  display: none
+
+.item
+  @extend %circle
+  font-size: 14px
+  text-align: -webkit-center
+
+.menu-icon
+  width: 24px
+  height: 2px
+  background: white
+  display: block
+  position: absolute
+  top: 50%
+  left: 32%
+  transition: transform 200ms
+
+.top
+  transform: translateY(-10px)
+
+.bottom
+  transform: translateY(10px)
+
+.open:checked+.open-button
+  .top
+    transform: rotate(45deg) scale(1.25)
+  
+  .middle
+    display: none
+  
+  .bottom
+    transform: rotate(-45deg) scale(1.25)
+  
+svg
+  height: 50px
+  width: 50px
+
+.mobile-menu
+  @extend %filter
+  box-sizing: border-box
+  margin: 25px
+  
+.mobile
+  margin: 25px
+  
+.item
+  padding-top: 10px
+  &:hover
+    color: $dark-blue
+    text-decoration: none
+  @for $x from 1 through $menu-items
+    &:nth-child(#{$x+2})
+      transition-duration: 200ms
+
+.open-button
+  @extend %circle
+  z-index: 3
+  transition-timing-function: cubic-bezier(0.20, 0.85, 0.325, 1.275)
+  transition-duration: 400ms
+  cursor: pointer
+
+.open:checked+.open-button
+  transition-timing-function: linear
+  transition-duration: 200ms
+ 
+.open:checked~.item
+  transition-timing-function:cubic-bezier(0.165, 0.85, 0.45, 1)
+  @for $x from 1 through $menu-items
+
+    &:nth-child(#{$x+2})
+      transition-duration: 100ms+(100ms*$x)
+      transform: translateX(85px*$x)
+    
+
+

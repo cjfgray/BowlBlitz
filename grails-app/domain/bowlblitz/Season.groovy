@@ -1,11 +1,9 @@
 package bowlblitz
 
-import java.sql.Timestamp
-
 class Season {
     int year
-    Timestamp startDate
-    Timestamp endDate
+    Date startDate
+    Date endDate
 
     static constraints = {
     }

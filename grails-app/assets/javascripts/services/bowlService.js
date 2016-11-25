@@ -2,7 +2,7 @@ bowlBlitz.service('bowlService', function ($http) {
     return {
         addBowl: bowlData => {
             req = {
-                'url': '/api/admin',
+                'url': '/BowlBlitz/api/bowl',
                 'method': 'POST',
                 'headers': {
                     'content-type': 'application/json'
@@ -12,6 +12,6 @@ bowlBlitz.service('bowlService', function ($http) {
 
             return $http(req);
         },
-        listBowls: () => $http.get('/BowlBlitz/api/bowl/list/2016').then(result => result.data)
+        listBowls: season => $http.get(`/BowlBlitz/api/bowl/list/${season}`).then(result => result.data)
     }
 });

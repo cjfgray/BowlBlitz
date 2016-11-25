@@ -1,5 +1,7 @@
 bowlBlitz.controller('loginController', ['$uibModal', 'authService', function ($uibModal, authService) {
     var loginCtrl = this;
+    $('nav').hide();
+    loginCtrl.type = true;
     loginCtrl.openSignUp = function () {
         $uibModal.open({
             animation: true,

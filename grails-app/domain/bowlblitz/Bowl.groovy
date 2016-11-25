@@ -1,13 +1,12 @@
 package bowlblitz
 
-import java.sql.Timestamp
-
 class Bowl {
     String name
+    Date bowlDate
+    Season season
+    Location location
     Team team1
     Team team2
-    Timestamp bowlDate
-    Season season
     Team winner
 
     static constraints = {

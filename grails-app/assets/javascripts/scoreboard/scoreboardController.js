@@ -1,18 +1,4 @@
-bowlBlitz.config(function ($stateProvider, $urlRouterProvider) {
-    $stateProvider
-        .state('scoreboard', {
-            url: "/scoreboard",
-            templateUrl: "static/views/partials/scoreboard.html",
-            controller: 'scoreboardCtrl as scoreboard',
-            authenticate: false
-        })
-        .state('scoreboard.list', {
-            url: "/list",
-            templateUrl: "static/views/partials/scoreboard.list.html",
-            controller: 'scoreboardCtrl as scoreboard',
-            authenticate: false
-        })
-}).controller('scoreboardCtrl', function () {
+bowlBlitz.controller('scoreboardCtrl', function () {
     var scoreboard = this;
     scoreboard.bowl = {name: "", team1: {name: ""}, team2: {name: ""}, season: {year: ""}, bowlDate: ""};
     scoreboard.total = 50;

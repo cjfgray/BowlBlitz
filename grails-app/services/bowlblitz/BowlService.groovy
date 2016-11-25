@@ -16,7 +16,7 @@ class BowlService {
                     team1: Team.findByName(team1 as String),
                     team2: Team.findByName(team2 as String),
                     bowlDate: new Date(bowlDate).toTimestamp(),
-                    season: Season.findByYear(Integer.parseInt(season as String))).save(failOnError: true, flush: true)
+                    season: Season.findByYear(Integer.parseInt(season as String))).save(flush: true)
         }
     }
 }

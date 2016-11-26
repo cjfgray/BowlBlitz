@@ -9,7 +9,7 @@ bowlBlitz.directive('userScoreboard',function(){
         controller: function(){},
         controllerAs: 'scoreboard',
         template:`
-            <div class="scoreboard-card card card-block"  ng-style="{'background': 'linear-gradient(to right, #EC6164 ' + {{(scoreboard.user.wins / 50)*100}} + '%, #1F1C26 ' + {{(scoreboard.user.wins / 50)*100}} + '%'}">
+            <div class="scoreboard-card card card-block"  ng-style="{'background': 'linear-gradient(to right, #EC6164 ' + {{(scoreboard.user.wins / 50)*100}} + '%, rgba(0,0,0,0) ' + {{(scoreboard.user.wins / 50)*100}} + '%'}">
                 <span class="text-white">{{scoreboard.user.name}}</span>
                 <span class="pull-right text-white">Win: {{scoreboard.user.wins}} | Lose: {{scoreboard.user.losses}}</span>
             </div>`

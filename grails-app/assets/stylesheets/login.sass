@@ -4,21 +4,23 @@ $color-one: #D6FCFD
 $color-two: lighten(tomato, 15%)
 $color-three: #8FF9FF
 
-body
+body , html
   background: linear-gradient(to bottom, rgba(0,14,31,1), rgba(45,28,59,1))
-  background-size: cover
+  background-size: length(100%   100%)
   background-position: center
+  background-repeat: no-repeat
   font-family: 'Prompt', sans-serif
+  height: 100%
+  overflow: auto
 
 
 .signup-card, .login-card
-  height: 300px
+  height: 400px
   width: 350px
   position: absolute
   background-color: rgba(0,0,0,.2)
   border: none
   border-radius: 0px
-  //box-shadow: 0px 7px 30px, 0px -4px 30px
 
 .signup-card
   margin-right: 25px
@@ -32,7 +34,7 @@ body
   
 .background
   background-color: rgba(0,0,0,0.2)
-  height: 300px
+  height: 400px
   margin-top: 15%
   border-radius: 15px
   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5)
@@ -62,6 +64,7 @@ h4
 .action-button
   border-color: $color-one
   color: $color-one
+  margin-top: 20px
 
 .action-button:hover, .action-button:focus
   outline: none
@@ -93,6 +96,9 @@ h4
   width: 320px!important
   color: snow
 
+.input-mobile:focus
+  background-color: rgba(0,0,0,.3)
+
 .desktop-input
   border: none
   border-bottom: 1px solid #444
@@ -102,8 +108,9 @@ h4
   margin-top: 15px
   color: $color-one
 
-.desktop-input:focus
+.desktop-input:focus,
   border-bottom: 1px solid $color-one
+  background-color: transparent
 
 label
   color: lavender

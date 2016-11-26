@@ -43,4 +43,9 @@
             <bowl-card ng-repeat="bowl in adminCtrl.bowls" bowl="bowl"></bowl-card>
         </div>
     </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <button class="btn btn-primary btn-block">Submit</button>
+        </div>
+    </div>
 </div>

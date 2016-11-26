@@ -7,6 +7,7 @@
 //= require_tree directives
 //= require_tree login
 //= require_tree admin
+//= require_tree user
 //= require_tree scoreboard
 //= require_self
 

@@ -1,14 +1,29 @@
-
+@import 'variables'
 
 .text-white
     color: #FFF
 
+.btn-primary
+    background-color: $main-color
+    color: #FFF
+    transition: 0.35s
+    border: 1px solid transparent!important
+    &:hover 
+        background-color: lighten($main-color, 10%)
+
+nav
+    background-color: $main-color
+    margin-bottom: 10px
+    border-radius: 0!important
+    padding: 25px
 
 body 
     background-color: #1F1C26
     color: #E8E8E8
     font-family: 'Poppins', sans-serif
 
+.clickable
+    cursor:pointer
 
 .bowl-form
     display: block
@@ -29,21 +44,22 @@ body
     outline: none
 
 
-.bowl-card
+.bowl-card .card-block
     background-color: transparent
     color: white
-    border: 4px solid #EC6164
+    border: 3px solid $main-color
 
-
-h4
-    padding: 10px
+.bowl-team
+    h4
+        border: 3px solid transparent
+        transition: 0.35s
+        padding: 5px
+        line-height: 60px
 
 
 .bowl-card .active
     background-color: #5B5B6B
-    border: 2px solid #EC6164
-    border-radius: .5rem
-
+    border: 3px solid $main-color
 
 .clickable
     cursor:pointer
@@ -64,8 +80,9 @@ h2
 .scoreboard-card 
     margin: 0px
     background-color: transparent!important
-    border: 1px solid #1F1C26
+    border: none
     border-radius: 0%
+    margin-bottom: 2px
     color: #55505E
     height: 55px
 

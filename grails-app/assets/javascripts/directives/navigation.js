@@ -1,10 +1,10 @@
 bowlBlitz.component('bowlBlitzNav',{
    template:
-   `<nav class="navbar">
+   `<nav class="navbar navbar-light">
        <ul class="nav navbar-nav">
-           <li><a href="/BowlBlitz">Bowl Blitz</a></li>
-           <li><a href="scoreboard">Scoreboard</a></li>
-           <li><a href="admin">Admin</a></li>
+           <li class="nav-item"><a href="/BowlBlitz">Bowl Blitz</a></li>
+           <li class="nav-item"><a href="scoreboard">Scoreboard</a></li>
+           <li class="nav-item"><a href="admin">Admin</a></li>
        </ul>
    </nav>`
 });

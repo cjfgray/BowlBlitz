@@ -12,6 +12,6 @@ bowlBlitz.service('bowlService', function ($http) {
 
             return $http(req);
         },
-        listBowls: season => $http.get(`/BowlBlitz/api/bowl/list/${season}`).then(result => result.data)
+        listBowls: season => $http.get(`/api/bowl/list/${season}`).then(result => result.data)
     }
 });

@@ -1,7 +1,7 @@
 bowlBlitz.service('itemService', ['$http', function($http) {
     var itemService = this;
     itemService.bowls = [];
-    $http.get('/BowlBlitz/api/bowl/list/2016').then(
+    $http.get('/api/bowl/list/2016').then(
         function(result){
             itemService.bowls = result.data;
         }

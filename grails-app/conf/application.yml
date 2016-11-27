@@ -125,4 +125,4 @@ endpoints:
 
 ---
 server:
-    context-path: '/BowlBlitz'
+    context-path: ''

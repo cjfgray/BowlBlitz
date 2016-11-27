@@ -6,6 +6,7 @@
     <title> <g:layoutTitle default="Grails"/></title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <asset:stylesheet src="main.css"/>
+    <asset:javascript src="application.js"/>
     <g:layoutHead/>
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <asset:stylesheet src="application.css"/>
@@ -13,6 +14,5 @@
 </head>
 <body>
     <g:layoutBody/>
-    <asset:javascript src="application.js"/>
 </body>
 </html>

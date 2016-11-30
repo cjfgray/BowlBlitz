@@ -7,7 +7,7 @@ bowlBlitz.controller('loginController', ['authService', function (authService) {
         success => console.log(success),
         error => console.log(error)
       )
-    }
+    };
 
     loginCtrl.login = () => {
       authService.login().then()

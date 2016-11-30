@@ -60,6 +60,7 @@ dependencies {
     provided "org.springframework.boot:spring-boot-starter-tomcat"
     compile "org.grails:grails-dependencies"
     compile "org.grails:grails-web-boot"
+    compile "org.grails:grails-datastore-rest-client:5.0.0.RC2"
 
     compile "org.grails.plugins:hibernate"
     compile "org.grails.plugins:cache"

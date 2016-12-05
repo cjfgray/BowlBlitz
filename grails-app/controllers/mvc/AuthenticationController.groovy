@@ -2,28 +2,33 @@ package mvc
 
 import bowlblitz.AuthService
 import bowlblitz.User
+import bowlblitz.commands.LoginCommand
 import bowlblitz.commands.SignUpCommand
+import ctokens.TokenUser
+import grails.converters.JSON
 
 class AuthenticationController {
     AuthService authService
 
-    def index() {
-        render(view: "login")
-    }
+    def index() {}
 
-    def login() {
-        User user = authService.authenticate(params.userid as String, params.password as String)
+    def login(LoginCommand loginCommand) {
+        TokenUser user = authService.authenticate(loginCommand) as TokenUser
+
+        println((user as JSON).toString(true))
 
         if (!user) {
             flash.error = "Invalid user id or password. Please re-enter and try again."
-            return redirect(controller: "authentication")
+            return redirect(controller: "authentication", action: "index")
         }
-        String _redirect = authService.getRedirect()
+//        String _redirect = authService.getRedirect()
 
-        if (_redirect) {
-            authService.removeRedirect()
-            redirect(url: _redirect)
-        }
+        authService.setCookies(user.token)
+//        if (_redirect) {
+//            authService.removeRedirect()
+//            redirect(url: _redirect)
+//        }
+        render status: 200
     }
 
 

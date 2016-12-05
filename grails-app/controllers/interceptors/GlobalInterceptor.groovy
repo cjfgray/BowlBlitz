@@ -2,6 +2,7 @@ package interceptors
 
 import bowlblitz.User
 import bowlblitz.traits.BowlBlitzSecurity
+import ctokens.TokenUser
 import grails.artefact.Interceptor
 import groovy.transform.CompileStatic
 
@@ -21,12 +22,11 @@ class GlobalInterceptor implements Interceptor, BowlBlitzSecurity {
 
         println "GLOBAL INTERCEPTOR"
 
-        User user = processRequest(request, flash)
+        TokenUser user = processRequest(request, flash)
         if (!user) {
             render(status: 401, text: "")
             return false
         }
-
 
         request['user'] = user
         true

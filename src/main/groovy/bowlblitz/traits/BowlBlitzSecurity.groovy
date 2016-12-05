@@ -16,7 +16,7 @@ trait BowlBlitzSecurity {
     AuthService authService
     UserService userService
 
-    User processRequest(HttpServletRequest request, FlashScope flash) {
+    TokenUser processRequest(HttpServletRequest request, FlashScope flash) {
         if (request['user'])
             return request['user'] as User
 

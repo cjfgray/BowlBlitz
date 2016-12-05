@@ -1,10 +1,12 @@
 package bowlblitz
 
+import bowlblitz.commands.LoginCommand
 import bowlblitz.commands.SignUpCommand
 import bowlblitz.exceptions.DuplicateException
 import bowlblitz.traits.BowlBlitzConfig
 import com.fasterxml.jackson.databind.ObjectMapper
 import ctokens.TokenUser
+import grails.core.GrailsApplication
 import grails.plugin.cookie.CookieService
 import grails.plugins.rest.client.RestBuilder
 import grails.plugins.rest.client.RestResponse
@@ -28,12 +30,12 @@ class AuthService implements BowlBlitzConfig {
         mapper.readValue(resp.text, TokenUser)
     }
 
-    TokenUser authenticate(String _email, String _password) {
+    TokenUser authenticate(LoginCommand loginCommand) {
         RestResponse resp = restBuilder.post("$ctokensUrl/authenticate") {
-            contentType "application/json"
+            contentType 'application/json'
             json {
-                email = _email
-                password = _password
+                email = loginCommand.email
+                password = loginCommand.password
             }
         }
 

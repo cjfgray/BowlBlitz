@@ -1,4 +1,6 @@
 import bowlblitz.*
+import ctokens.TokenUser
+import ctokens.TokenUserUser
 import grails.converters.JSON
 
 class BootStrap {
@@ -6,6 +8,21 @@ class BootStrap {
 
     def init = { servletContext ->
         developmentData = new DevelopmentData()
+
+        JSON.registerObjectMarshaller(TokenUserUser) { tuu ->
+            [
+                    email: tuu.email,
+                    firstName: tuu.firstName,
+                    lastName: tuu.lastName
+            ]
+        }
+
+        JSON.registerObjectMarshaller(TokenUser) { tu ->
+            [
+                    token: tu.token,
+                    user: tu.user
+            ]
+        }
 
         JSON.registerObjectMarshaller(Team) { Team team ->
             [

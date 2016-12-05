@@ -10,5 +10,6 @@ class DevelopmentData {
             Team team2 = Team.findById(it*2)
             new Bowl(name: "bowl${it}", team1: team1, team2: team2, location: locations[it-1],bowlDate: new Date().plus(it).toTimestamp(), season: Season.findByYear(2016)).save()
         }
+        new League(name: "global")
     }
 }

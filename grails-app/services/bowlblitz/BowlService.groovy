@@ -1,7 +1,6 @@
 package bowlblitz
 
 import bowlblitz.commands.BowlCommand
-
 import bowlblitz.exceptions.DuplicateException
 import bowlblitz.exceptions.SeasonNotFoundException
 import bowlblitz.exceptions.TeamNotFoundException

@@ -1,7 +1,6 @@
 <html ng-app="bowlBlitz">
 <head>
     <meta name="viewport" content="width=device-width" />
-    <asset:javascript src="application.js"/>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <asset:stylesheet src="application.css"/>
 </head>
@@ -127,4 +126,6 @@
   </div>
 </div>
 </body>
+
+<asset:javascript src="application.js"/>
 </html>

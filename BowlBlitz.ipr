@@ -19,205 +19,206 @@
             <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
           </element>
           <element id="directory" name="lib">
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bertramlabs.plugins/sass-asset-pipeline/2.7.4/f008f0e41ff49c3d8db4b2af5a60981a61bacdc/sass-asset-pipeline-2.7.4.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.3.7.RELEASE/2d8d0eeaddacf78c68e67d20797dedea9adc1f33/spring-boot-starter-logging-1.3.7.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/1.3.7.RELEASE/c23acb47b82ee70187be388f21e4e2bd55ca9c53/spring-boot-starter-actuator-1.3.7.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.3.7.RELEASE/e504fcf32d2e7f8ac86d838268f64cd53b528ebb/spring-boot-autoconfigure-1.3.7.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-boot/3.1.10/2cb1f38a24f19c0008d87318655f218c38d4fc8f/grails-web-boot-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-rest-client/5.0.0.RC2/1dfaed04383e473420a59d6f3d171cb2dd3963d/grails-datastore-rest-client-5.0.0.RC2.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate/4.3.10.7/252ea1ce72206ed6b4bf61f28eb3595152f0248c/hibernate-4.3.10.7.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/cache/3.0.2/519bc1bffb2afa10c93b92e872d49a5238e96558/cache-3.0.2.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-ehcache/4.3.11.Final/cea0e6aba102c00cf899bd547c338fcf54468433/hibernate-ehcache-4.3.11.Final.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-runner/9.2.11.v20150529/6e3d18bcef2c307c83d26fb5535d81edff9a8c78/jetty-runner-9.2.11.v20150529.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jsimone/webapp-runner/8.0.30.2/6bdcf8727c42f853f4998f61fc8a752d84dc233e/webapp-runner-8.0.30.2.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/9.4-1201-jdbc4/7f7a680f2aa8fe5d511c5cf5f78fa3a297a8e52b/postgresql-9.4-1201-jdbc4.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/asset-pipeline/3.2.1/32a127d37d6deeac5916b256db8b0fe8b3a9a9ad/asset-pipeline-3.2.1.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/scaffolding/3.2.1/82b56d19aff8da7818a17e723c8a49f7499caf26/scaffolding-3.2.1.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bertramlabs.plugins/jruby-container/0.6.1/375bfb1d14294799b425982814a13c87d3e09d34/jruby-container-0.6.1.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.7/9865cf6994f9ff13fce0bf93f2054ef6c65bb462/logback-classic-1.1.7.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.21/331b564a3a42f002a0004b039c1c430da89062cd/jcl-over-slf4j-1.7.21.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.21/2f22c882ffa479d1e9ff4eb0e8e2c29f2a0871ed/jul-to-slf4j-1.7.21.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.21/b3700d97464d99bdcd42c0177d6e7951c94d75ff/log4j-over-slf4j-1.7.21.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.3.7.RELEASE/daa99218e41f404c1fc9f1a191f90608e262c511/spring-boot-starter-1.3.7.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/1.3.7.RELEASE/c28d9a2506390d051da6734b93d862108bc98b2d/spring-boot-actuator-1.3.7.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.3.7.RELEASE/5078bba3b42645dd86417e907368bbed4344203e/spring-boot-1.3.7.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-bootstrap/3.1.10/c3dae915f5396c08c41f70086c050614e5b0810/grails-bootstrap-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-rest/3.1.10/44e207c389110e8a182fe9f0872bbeb86bd3f2ab/grails-plugin-rest-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-databinding/3.1.10/7a18a0996e867b1dd5fdda533689f214361ebb2e/grails-plugin-databinding-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-i18n/3.1.10/a6eb85b0950495ac45ed6c477061a083742b0c14/grails-plugin-i18n-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-gsp/3.1.10/1993f955f3dcc795f876b2f8f06bbdbeec0ec0eb/grails-plugin-gsp-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/3.1.10/8e02b3f1029eb37e5a10202dc11c2b1e9249f45a/grails-plugin-services-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-url-mappings/3.1.10/6f599ad064b1d92651b7c99bd9dac66b17334561/grails-plugin-url-mappings-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-interceptors/3.1.10/2faea7ef2b337f11371bb9cfdd3b817279c59ce0/grails-plugin-interceptors-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-async/3.1.10/93910597da975a64771cec4b6487380d34ba60fb/grails-plugin-async-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.192/1106492605db135523d2817881cdf029d9292afa/h2-1.4.192.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.4.7/10870e6511f544ce45152d0ad08d7514a00c8201/groovy-2.4.7.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.21/139535a69a4239db087de9bab0bee568bf8e0b70/slf4j-api-1.7.21.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/3.1.10/4784c457df3c217f1acd0c30790b746720b59685/grails-web-common-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-converters/3.1.10/672c48c220a53502287c839b6fee4215b54a017c/grails-plugin-converters-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-async/3.1.10/31cb9347109c27ec7e76e74f831a61c3221d49b0/grails-async-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-core/3.1.10/d8843f3cd54835c3a166d387c3ade3931d471bec/grails-core-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/3.1.10/1d94a68e8682d0727b21b4f30dd23d8a081b8772/grails-web-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-hibernate4/5.0.10.RELEASE/5a0f20867a8dd91aa54f33cdf886c2bc5f0aa118/grails-datastore-gorm-hibernate4-5.0.10.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/2eaf3d3c9746d526ff7e5b93931d482c3887e6ac/concurrentlinkedhashmap-lru-1.4.2.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.1-GA/d9a09f7732226af26bf99f19e2cffe0ae219db5b/javassist-3.18.1-GA.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.0.Final/3616bb87707910296e2c195dc016287080bba5af/jboss-logging-3.3.0.Final.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging-annotations/1.2.0.Beta1/2f437f37bb265d9f8f1392823dbca12d2bec06d6/jboss-logging-annotations-1.2.0.Beta1.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/4.3.11.Final/536ac0021240d97db99c7d2983067cef1a6f3af5/hibernate-core-4.3.11.Final.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache-core/2.4.3/fd258ef6959f27fb678b04f90139ded4588e2d15/ehcache-core-2.4.3.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-plus/9.2.18.v20160721/2af5173df7ac27a13604b0568985ae165cf5494f/jetty-plus-9.2.18.v20160721.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-annotations/9.2.18.v20160721/677a1dbad2a3d7fadd77aa207e56261f12600f5c/jetty-annotations-9.2.18.v20160721.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-jaas/9.2.11.v20150529/4ea625e33adfb4a5057052a1f4bacd7b3035ec86/jetty-jaas-9.2.11.v20150529.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-server/9.2.18.v20160721/d5b2f11506f943e34bc0a9390b2ac14b0634b33a/websocket-server-9.2.18.v20160721.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-jsp/9.2.18.v20160721/fa70417743f778e47ded8b515ccaec176d0a73c4/jetty-jsp-9.2.18.v20160721.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-jasper/8.0.36/aa48177f1f4848fc439ef6fe9ac2c9e4f797210b/tomcat-embed-jasper-8.0.36.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-jasper/8.0.30/c170ad7ae17687a3c133ebdf702a413c8ae30ef8/tomcat-jasper-8.0.30.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-jasper-el/8.0.30/9aed113b595b0aa90f516a3efb93351145e5647e/tomcat-jasper-el-8.0.30.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-jsp-api/8.0.36/c6e3ba153696c291ad8b01502c7de1c4916750fd/tomcat-jsp-api-8.0.36.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.27/58c9cbf0f1fa296f93c712f2cf46de50471920f9/jcommander-1.27.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.3/cd8d6ffc833cc63c30d712a180f4663d8f55799b/commons-io-2.3.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.javakaffee.msm/memcached-session-manager-tc8/1.8.3/bf13b18a2bd33b7f49c2be6c0706e8123ed4a0e/memcached-session-manager-tc8-1.8.3.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mozilla/rhino/1.7R4/e982f2136574b9a423186fbaeaaa98dc3e5a5288/rhino-1.7R4.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/fields/2.1.2/45019a9e6ad24418ad4c92b948b018ea613293e/fields-2.1.2.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.7/7873092d39ef741575ca91378a6a21c388363ac8/logback-core-1.1.7.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.2.6.RELEASE/a1c6ef01f18888f51fc5054c65ef4787b7cf0a1e/spring-core-4.2.6.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.16/d64fb662c9e42789149f5078a62a22edda786c6a/snakeyaml-1.16.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.6.7/1857f49ee9dffe1c8d17d4c3980e0d713af2806/jackson-databind-2.6.7.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.6.RELEASE/bbf3c8526fe37bb341507f28db17882d4348dbca/spring-context-4.2.6.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-xml/2.4.7/864b9dc44fb0e05f329fad473e8b4df172f1b48f/groovy-xml-2.4.7.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/3.1.10/9ab7e32544be0a4eaa36db4fa26ae692cc225c38/grails-plugin-controllers-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-datasource/3.1.10/c1f18dcf312631d352c68d7f95875994fac6b394/grails-plugin-datasource-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/3.1.10/9d0b1bdaa0d01b0663d3aeac39ef6749b8d48ee7/grails-plugin-codecs-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-logging/3.1.10/6c859d708141e18c001b265a2af6867f761d0df8/grails-logging-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-gsp-taglib/3.1.10/a1164da44f8f2b7b14efe450ae007db8d596c998/grails-web-gsp-taglib-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.2.6.RELEASE/ba7502c0644414748b1eeb65b4193b05d335a110/spring-tx-4.2.6.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-events/3.1.10/c4878425960bfcf80920f2a8e1e7a27554091c41/grails-plugin-events-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-validation/3.1.10/a57f0f530e187b5aa6a7f97e836724205c1f5e47/grails-validation-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-databinding/3.1.10/f03d3667629f5aa22c596b09f2495a6bd77837da/grails-databinding-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-encoder/3.1.10/7e3a23322a138a8c74a6b35e892594634978411/grails-encoder-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-gsp/3.1.10/c21fefca3a92cc4e9056db438cc8f5ba9b65fe53/grails-gsp-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-templates/2.4.7/3153f11ab70d65526109d9bcbe4f7b11f60b6fb6/groovy-templates-2.4.7.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.2.6.RELEASE/7c7ea475d33287e0e3a92e98ccbe0ad6a0dbb9ca/spring-webmvc-4.2.6.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/4.2.6.RELEASE/3b249b371a9afed1ae5fe06f100d80ae14115921/spring-context-support-4.2.6.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.gpars/gpars/1.2.1/c3ea0fbcd67a163bd5e3a3efdaa3428262d0d437/gpars-1.2.1.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/2.0.8.RELEASE/c39f1a80fcc6e92a527d162186fb57833b1dfc3b/reactor-core-2.0.8.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-stream/2.0.8.RELEASE/9aa8be580e368601021d3953bcf8ed2b3462d26a/reactor-stream-2.0.8.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xalan/serializer/2.7.2/24247f3bb052ee068971393bdb83e04512bb1c3c/serializer-2.7.2.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.0.Final/5e731d961297e5a07290bfaf3db1fbc8bbbf405a/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.2.6.RELEASE/d4a319fb4d949fb6313f45c929947b9b4e26283e/spring-beans-4.2.6.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-spring/3.1.10/7731ba747d2c50aac9a6181c1c247081345fd93/grails-spring-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aspects/4.2.6.RELEASE/7ed7b15e95eedd551ac979bd8c295256d96cf2ff/spring-aspects-4.2.6.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.9/87372d9e2323313bec24b09a325bfea8ae0eb867/aspectjrt-1.8.9.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.9/db28774f477f07220eac18d5ec9c4e01f48589d7/aspectjweaver-1.8.9.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-gsp/3.1.10/bcfe1ac49828af5c908947d4f5aaff58bb21db74/grails-web-gsp-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-databinding/3.1.10/db9c595f941de17b98503368a380672c5fb03a75/grails-web-databinding-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/3.1.10/2b8bed85c80e0be8c750813bab838236d355d82/grails-web-url-mappings-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-jsp/3.1.10/8e7094652cb76bef1b0344c0459517b0d7f32270/grails-web-jsp-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-mvc/3.1.10/b774fb5782788058310dad52be92793944b94cdf/grails-web-mvc-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-sitemesh/3.1.10/e3654f6e58839d19c4afd5a1d93ebe686802e63/grails-web-sitemesh-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-hibernate-core/5.0.10.RELEASE/855f11430b35da94fdb9a307188aa3b7b5fa2805/grails-datastore-gorm-hibernate-core-5.0.10.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-support/5.0.10.RELEASE/929029114a1297d35db73b70e976ef8d78b28b9c/grails-datastore-gorm-support-5.0.10.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/4.0.5.Final/2a581b9edb8168e45060d8bad8b7f46712d2c52c/hibernate-commons-annotations-4.0.5.Final.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.4.Final/fb18766b576aa6632bcfe9a20a023cbd52bf9769/hibernate-validator-5.2.4.Final.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/1f9fef7a9fcbb41cc390fc370a291cf30729e094/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/antlr/antlr/2.7.7/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/1.1.0.Final/e84a2122e76f0b6503be78094ddf2108057ac15f/jandex-1.1.0.Final.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.2.18.v20160721/a820896b6c70811d888ad42b34b9e33f3e980543/jetty-webapp-9.2.18.v20160721.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.1/2fd56467a018aafe6ec6a73ccba520be4a7e1565/asm-5.0.1.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.1/7b7147a390a93a14d2edfdcf3f7b0e87a0939c3e/asm-commons-5.0.1.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.2.18.v20160721/7bb2ecbf3d478524909d29af0b1afc04ea95182b/jetty-security-9.2.18.v20160721.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.2.18.v20160721/b48b198c5dd66e497a3ffa3c5b019c243aef793f/websocket-common-9.2.18.v20160721.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-client/9.2.18.v20160721/6e253091f8eed8d1364c956a53d4f4c13145a853/websocket-client-9.2.18.v20160721.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-servlet/9.2.18.v20160721/26e75965fac3cc439f554be66a65091c737e13a/websocket-servlet-9.2.18.v20160721.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.2.18.v20160721/8089e33eeed17ef28e8c65fc72447d9b8ca5c3c4/jetty-servlet-9.2.18.v20160721.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.2.18.v20160721/db9a0cb24d48a4a7856f593f782e09d29beaf64/jetty-http-9.2.18.v20160721.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.toolchain/jetty-schemas/3.1.M0/6179bafb6ed2eb029862356df6713078c7874f85/jetty-schemas-3.1.M0.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet.jsp/javax.servlet.jsp-api/2.3.1/95c630902565feda8155eb32d46064ef348435fc/javax.servlet.jsp-api-2.3.1.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.web/javax.servlet.jsp/2.3.2/613f624102267b1397e845b3181a72273bd6f399/javax.servlet.jsp-2.3.2.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.orbit/javax.servlet.jsp.jstl/1.2.0.v201105211821/db594f1c8fc00d536f6d135bd7f8a9a99a6b8eea/javax.servlet.jsp.jstl-1.2.0.v201105211821.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.web/javax.servlet.jsp.jstl/1.2.2/5b2e83ef42b4eef0a7e41d43bb1d4b835f59ac7a/javax.servlet.jsp.jstl-1.2.2.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.el/3.0.0/dd532526e7c8de48e40419e6af1183658a973379/javax.el-3.0.0.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.orbit/org.eclipse.jdt.core/3.8.2.v20130121/ebb04771ae21dec8682e4153e97404d9933a9c13/org.eclipse.jdt.core-3.8.2.v20130121.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.5/6ee0a678915ddac550d9187c896be6cb76f5cd2f/ecj-4.5.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-api/8.0.30/197335766f2d8299b70a62ca7b6dd7cee3b454f2/tomcat-api-8.0.30.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-util-scan/8.0.30/60eb36da532abbe3e0cf96a70a6b581b6435165/tomcat-util-scan-8.0.30.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.javakaffee.msm/memcached-session-manager/1.8.3/63dfc460cdf4ef1fb87afa7baae3ede9ba33d0f4/memcached-session-manager-1.8.3.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/annotations/1.3.9/edeabc3a0f1eb53d115bfea725c7ea21ce5e5c71/annotations-1.3.9.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.6.7/7e08eafe72cbd11c955d92109108bd2bfaab979e/jackson-annotations-2.6.7.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.6.7/81838e08d5e10e33cdee7299f9682d836b78c63e/jackson-core-2.6.7.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.2.6.RELEASE/5efbfccb19efda2956b8977561bf4da6b15b0d0e/spring-aop-4.2.6.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.2.6.RELEASE/c0182d73f348ab11d51d45cbe29f3820c32d0ccc/spring-expression-4.2.6.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-mimetypes/3.1.10/a26862a34182b0a65bb244b0ca4c4f2f1b353e97/grails-plugin-mimetypes-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-validation/3.1.10/2d667b407d9a1eac42466289c5fdeb0b4fd69e7b/grails-plugin-validation-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-domain-class/3.1.10/e75d5d28f28d394641b62f7b5cf6504e591cf35f/grails-plugin-domain-class-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-logging-log4j/8.0.33/2607f5b35f7641042414f76cdf2a9d5ec8033294/tomcat-embed-logging-log4j-8.0.33.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.2.6.RELEASE/16075bfb0901a5b89c5be975365ff09b2df04abb/spring-jdbc-4.2.6.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-sql/2.4.7/eb13f8aadd7b7c2c920ef52dfda74155e7803255/groovy-sql-2.4.7.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-jdbc/8.0.36/51f718c096f0c0c6de00a45b578bad81b014aa5/tomcat-jdbc-8.0.36.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-codecs/3.1.10/78b657ef0f4048204b1a4e0e1312a8446155a1d8/grails-codecs-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor.spring/reactor-spring-context/2.0.7.RELEASE/ca4285a0a0ab9d1f39953c086bfcfc5883c06c32/reactor-spring-context-2.0.7.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-bus/2.0.8.RELEASE/dea2861087164495584ac4a01835e665dc0a32a2/reactor-bus-2.0.8.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-validator/commons-validator/1.4.1/2231238e391057a53f92bde5bbc588622c1956c3/commons-validator-1.4.1.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/2.4.7/c62bc909e3bb996cbc9509435a522f6fb8cf1461/groovy-json-2.4.7.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.6.RELEASE/d5ce949da3f3266f118ed899a153413613b503ad/spring-web-4.2.6.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-taglib/3.1.10/686c4e3b5e5ff6ca27d0bb155431e758402dec8a/grails-taglib-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jsr166-mirror/jsr166y/1.7.0/8547fcb1c29b4f8c745c3f49a536aca58fc30f54/jsr166y-1.7.0.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.0/14b8c877d98005ba3941c9257cfe09f6ed0e0d74/reactive-streams-1.0.0.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-taglib/3.1.10/d5881449103d2e7d580cdd86f393eb027fa5c0a1/grails-web-taglib-3.1.10.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-core/5.0.10.RELEASE/b703fd9b73092d4c1cc94b3accc3fc845e15083b/grails-datastore-core-5.0.10.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/opensymphony/sitemesh/2.4/fa84c82cce30a9a632c08dd2277d63993d972cf5/sitemesh-2.4.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.0.b2/3136ca936f64c9d68529f048c2618bd356bf85c9/xml-apis-1.0.b2.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm/5.0.10.RELEASE/ac32575955a65e1b93eee9619b2320edbd78b706/grails-datastore-gorm-5.0.10.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/4.2.6.RELEASE/2ef30e836028ebe4dbba0d8355929625a758ed8d/spring-orm-4.2.6.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.transaction/jta/1.1/2ca09f0b36ca7d71b762e14ea2ff09d5eac57558/jta-1.1.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.1.0/dbbd699a1486ad0f2ed6f5af6cfed66acacb9056/classmate-1.1.0.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.2.18.v20160721/4e8e9463265a26c12d836f43131e276a4c0252f7/jetty-xml-9.2.18.v20160721.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.1/1b1e6e9d869acd704056d0a4223071a511c619e6/asm-tree-5.0.1.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.2.18.v20160721/7f39210c39eaa235a9dc1e6f8c6dddff644ee5d3/jetty-server-9.2.18.v20160721.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-api/9.2.18.v20160721/d039da78ea75bd60dea3a0258a0b5a7fc45cc9c9/websocket-api-9.2.18.v20160721.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.2.18.v20160721/b304329684d004c1d258609f6ccd9a8e2a0393f1/jetty-util-9.2.18.v20160721.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.2.18.v20160721/9e2318fdf42815e78008f5942258cbf0ab9806d4/jetty-io-9.2.18.v20160721.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-util/8.0.30/9375d9aacf55b38358c3c0465fb7c0a2fd2e2cd5/tomcat-util-8.0.30.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.spy/spymemcached/2.11.1/a3bc84804bddb054b4c4a6679ea618b7a6f2377c/spymemcached-2.11.1.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.couchbase.client/couchbase-client/1.4.0/f9d0e2526816bbc8d33ad8fde2c383bb4d0a0070/couchbase-client-1.4.0.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-simple/5.0.10.RELEASE/bdce110a30cbecfbc264ff322160ecfbe183f752/grails-datastore-simple-5.0.10.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.0.0/26b8555596b3fb9652c1ffe193fa9123945b32cc/json-path-2.0.0.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor.spring/reactor-spring-core/2.0.7.RELEASE/b1045de1d670cb1b5885221954e8338bf3938ff5/reactor-spring-core-2.0.7.RELEASE.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.goldmansachs/gs-collections/5.1.0/7114c5349c816ea645b1ea3ffcc21fa073cbabc/gs-collections-5.1.0.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5/commons-collections-3.2.2.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-ant/2.4.7/c56eb616e1485df8df5493a09bf30cdf8c7c36b0/groovy-ant-2.4.7.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.5.5.Final/289c791f8c7d0fd930b4a08f60b2510cfb1f9cfe/netty-3.5.5.Final.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.1/1a01a2a1218fcf9faa2cc2a6ced025bdea687262/jettison-1.1.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.5/e7501a1b34325abb00d17dde96150604a0658b54/httpcore-4.4.5.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore-nio/4.3/d2d9f8c1fc7b2acf4240c6fd77f31a0efe66d2ef/httpcore-nio-4.3.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.1.1/922d12fb1f394e2b6999ae0f7936ab13f4dffb81/json-smart-2.1.1.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.goldmansachs/gs-collections-api/5.1.0/ea605cdf64cab5fc7b48c99f061d4c8db05b6ff1/gs-collections-api-5.1.0.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant/1.9.4/6d473e8653d952045f550f4ef225a9591b79094a/ant-1.9.4.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-groovydoc/2.4.7/6327c63b9f0820849dd73749c14c56a7449a97d9/groovy-groovydoc-2.4.7.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-antlr/1.9.4/4cf30025981dc2344324a0ef0e40063c3ef08f0a/ant-antlr-1.9.4.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-launcher/1.9.4/334b62cb4be0432769679e8b94e83f8fd5ed395c/ant-launcher-1.9.4.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-junit/1.9.4/b063757dacaa716b643c2f9270e469183636ff11/ant-junit-1.9.4.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/stax/stax-api/1.0.1/49c100caf72d658aca8e58bd74a4ba90fa2b0d70/stax-api-1.0.1.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minidev/asm/1.0.2/63900a15f524db0b8c4fb2d9e24c0cb179842ea5/asm-1.0.2.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/asm/asm/3.3.1/1d5f20b4ea675e6fab6ab79f1cd60ec268ddc015/asm-3.3.1.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bertramlabs.plugins/asset-pipeline-core/2.8.1/45c5ab9dbbb515ad4ac8be3f8e9040ae2842464c/asset-pipeline-core-2.8.1.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.javascript/closure-compiler/v20151015/8e20293908bc676ad6ed2013a4f52728b87af460/closure-compiler-v20151015.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jruby/jruby-complete/1.7.18/a1be3e1790aace5c99614a87785454d875eb21c2/jruby-complete-1.7.18.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-jndi/9.2.18.v20160721/191aef41fa8ecd63a22e8b9121f32a5cb3567212/jetty-jndi-9.2.18.v20160721.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-el-api/8.0.36/c2b7ccfa5d50a6200187ff8b8a101b3979b3cee9/tomcat-el-api-8.0.36.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-servlet-api/8.0.36/c35ae4f55ee9f87dc9fdb6c5de0e30bfeeacd49/tomcat-servlet-api-8.0.36.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-juli/8.0.36/2f04a42a84db65bd5666c79eb4865cc07eee5886/tomcat-juli-8.0.36.jar" />
-            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/b7f0fc8f61ecadeb3695f0b9464755eee44374d4/commons-codec-1.6.jar" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-logging:1.3.7.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:1.3.7.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.3.7.RELEASE" />
+            <element id="library" level="project" name="Gradle: com.bertramlabs.plugins:sass-asset-pipeline:2.7.4" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-web-boot:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-datastore-rest-client:5.0.0.RC2" />
+            <element id="library" level="project" name="Gradle: org.grails.plugins:hibernate:4.3.10.7" />
+            <element id="library" level="project" name="Gradle: org.grails.plugins:cache:3.0.2" />
+            <element id="library" level="project" name="Gradle: org.hibernate:hibernate-ehcache:4.3.11.Final" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-runner:9.2.11.v20150529" />
+            <element id="library" level="project" name="Gradle: com.github.jsimone:webapp-runner:8.0.30.2" />
+            <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.1.7" />
+            <element id="library" level="project" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.21" />
+            <element id="library" level="project" name="Gradle: org.slf4j:jul-to-slf4j:1.7.21" />
+            <element id="library" level="project" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.21" />
+            <element id="library" level="project" name="Gradle: org.postgresql:postgresql:9.4-1201-jdbc4" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter:1.3.7.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.grails.plugins:asset-pipeline:3.2.1" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-actuator:1.3.7.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot:1.3.7.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.grails.plugins:scaffolding:3.2.1" />
+            <element id="library" level="project" name="Gradle: log4j:log4j:1.2.17" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-bootstrap:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-plugin-rest:3.1.10" />
+            <element id="library" level="project" name="Gradle: com.bertramlabs.plugins:jruby-container:0.6.1" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-plugin-databinding:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-plugin-i18n:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-plugin-gsp:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-plugin-services:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-plugin-url-mappings:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-plugin-interceptors:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-plugin-async:3.1.10" />
+            <element id="library" level="project" name="Gradle: com.h2database:h2:1.4.192" />
+            <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy:2.4.7" />
+            <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.21" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-web-common:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-plugin-converters:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-async:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-core:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-web:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-datastore-gorm-hibernate4:5.0.10.RELEASE" />
+            <element id="library" level="project" name="Gradle: com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:1.4.2" />
+            <element id="library" level="project" name="Gradle: org.javassist:javassist:3.18.1-GA" />
+            <element id="library" level="project" name="Gradle: org.jboss.logging:jboss-logging:3.3.0.Final" />
+            <element id="library" level="project" name="Gradle: org.jboss.logging:jboss-logging-annotations:1.2.0.Beta1" />
+            <element id="library" level="project" name="Gradle: org.hibernate:hibernate-core:4.3.11.Final" />
+            <element id="library" level="project" name="Gradle: net.sf.ehcache:ehcache-core:2.4.3" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-plus:9.2.18.v20160721" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-annotations:9.2.18.v20160721" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-jaas:9.2.11.v20150529" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty.websocket:websocket-server:9.2.18.v20160721" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-jsp:9.2.18.v20160721" />
+            <element id="library" level="project" name="Gradle: org.apache.tomcat.embed:tomcat-embed-jasper:8.0.36" />
+            <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-jasper:8.0.30" />
+            <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-jasper-el:8.0.30" />
+            <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-jsp-api:8.0.36" />
+            <element id="library" level="project" name="Gradle: com.beust:jcommander:1.27" />
+            <element id="library" level="project" name="Gradle: commons-io:commons-io:2.3" />
+            <element id="library" level="project" name="Gradle: de.javakaffee.msm:memcached-session-manager-tc8:1.8.3" />
+            <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.1.7" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.2.6.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.yaml:snakeyaml:1.16" />
+            <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.6.7" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.2.6.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy-xml:2.4.7" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-plugin-controllers:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-plugin-datasource:3.1.10" />
+            <element id="library" level="project" name="Gradle: commons-lang:commons-lang:2.6" />
+            <element id="library" level="project" name="Gradle: org.mozilla:rhino:1.7R4" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-plugin-codecs:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails.plugins:fields:2.1.2" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-logging:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-web-gsp-taglib:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-tx:4.2.6.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-plugin-events:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-validation:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-databinding:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-encoder:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-gsp:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy-templates:2.4.7" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.2.6.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-context-support:4.2.6.RELEASE" />
+            <element id="library" level="project" name="Gradle: com.google.code.gson:gson:2.3.1" />
+            <element id="library" level="project" name="Gradle: org.codehaus.gpars:gpars:1.2.1" />
+            <element id="library" level="project" name="Gradle: io.projectreactor:reactor-core:2.0.8.RELEASE" />
+            <element id="library" level="project" name="Gradle: io.projectreactor:reactor-stream:2.0.8.RELEASE" />
+            <element id="library" level="project" name="Gradle: xalan:serializer:2.7.2" />
+            <element id="library" level="project" name="Gradle: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.2.6.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-spring:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-aspects:4.2.6.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.aspectj:aspectjrt:1.8.9" />
+            <element id="library" level="project" name="Gradle: org.aspectj:aspectjweaver:1.8.9" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-web-gsp:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-web-databinding:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-web-url-mappings:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-web-jsp:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-web-mvc:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-web-sitemesh:3.1.10" />
+            <element id="library" level="project" name="Gradle: dom4j:dom4j:1.6.1" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-datastore-gorm-hibernate-core:5.0.10.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-datastore-gorm-support:5.0.10.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.hibernate.common:hibernate-commons-annotations:4.0.5.Final" />
+            <element id="library" level="project" name="Gradle: org.hibernate:hibernate-validator:5.2.4.Final" />
+            <element id="library" level="project" name="Gradle: org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.0.0.Final" />
+            <element id="library" level="project" name="Gradle: antlr:antlr:2.7.7" />
+            <element id="library" level="project" name="Gradle: org.jboss:jandex:1.1.0.Final" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-webapp:9.2.18.v20160721" />
+            <element id="library" level="project" name="Gradle: javax.annotation:javax.annotation-api:1.2" />
+            <element id="library" level="project" name="Gradle: org.ow2.asm:asm:5.0.1" />
+            <element id="library" level="project" name="Gradle: org.ow2.asm:asm-commons:5.0.1" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-security:9.2.18.v20160721" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty.websocket:websocket-common:9.2.18.v20160721" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty.websocket:websocket-client:9.2.18.v20160721" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty.websocket:websocket-servlet:9.2.18.v20160721" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-servlet:9.2.18.v20160721" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-http:9.2.18.v20160721" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty.toolchain:jetty-schemas:3.1.M0" />
+            <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
+            <element id="library" level="project" name="Gradle: javax.servlet.jsp:javax.servlet.jsp-api:2.3.1" />
+            <element id="library" level="project" name="Gradle: org.glassfish.web:javax.servlet.jsp:2.3.2" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:1.2.0.v201105211821" />
+            <element id="library" level="project" name="Gradle: org.glassfish.web:javax.servlet.jsp.jstl:1.2.2" />
+            <element id="library" level="project" name="Gradle: org.glassfish:javax.el:3.0.0" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty.orbit:org.eclipse.jdt.core:3.8.2.v20130121" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jdt.core.compiler:ecj:4.5" />
+            <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-api:8.0.30" />
+            <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-util-scan:8.0.30" />
+            <element id="library" level="project" name="Gradle: de.javakaffee.msm:memcached-session-manager:1.8.3" />
+            <element id="library" level="project" name="Gradle: com.google.code.findbugs:jsr305:1.3.9" />
+            <element id="library" level="project" name="Gradle: com.google.code.findbugs:annotations:1.3.9" />
+            <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+            <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.6.7" />
+            <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.6.7" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.2.6.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.2.6.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-plugin-mimetypes:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-plugin-validation:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-plugin-domain-class:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.apache.tomcat.embed:tomcat-embed-logging-log4j:8.0.33" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-jdbc:4.2.6.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy-sql:2.4.7" />
+            <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-jdbc:8.0.36" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-codecs:3.1.10" />
+            <element id="library" level="project" name="Gradle: io.projectreactor.spring:reactor-spring-context:2.0.7.RELEASE" />
+            <element id="library" level="project" name="Gradle: io.projectreactor:reactor-bus:2.0.8.RELEASE" />
+            <element id="library" level="project" name="Gradle: commons-validator:commons-validator:1.4.1" />
+            <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy-json:2.4.7" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.2.6.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-taglib:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.codehaus.jsr166-mirror:jsr166y:1.7.0" />
+            <element id="library" level="project" name="Gradle: org.reactivestreams:reactive-streams:1.0.0" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-web-taglib:3.1.10" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-datastore-core:5.0.10.RELEASE" />
+            <element id="library" level="project" name="Gradle: opensymphony:sitemesh:2.4" />
+            <element id="library" level="project" name="Gradle: xml-apis:xml-apis:1.0.b2" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-datastore-gorm:5.0.10.RELEASE" />
+            <element id="library" level="project" name="Gradle: org.springframework:spring-orm:4.2.6.RELEASE" />
+            <element id="library" level="project" name="Gradle: javax.transaction:jta:1.1" />
+            <element id="library" level="project" name="Gradle: javax.validation:validation-api:1.1.0.Final" />
+            <element id="library" level="project" name="Gradle: com.fasterxml:classmate:1.1.0" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-xml:9.2.18.v20160721" />
+            <element id="library" level="project" name="Gradle: org.ow2.asm:asm-tree:5.0.1" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-server:9.2.18.v20160721" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.2.18.v20160721" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-util:9.2.18.v20160721" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-io:9.2.18.v20160721" />
+            <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-util:8.0.30" />
+            <element id="library" level="project" name="Gradle: net.spy:spymemcached:2.11.1" />
+            <element id="library" level="project" name="Gradle: com.couchbase.client:couchbase-client:1.4.0" />
+            <element id="library" level="project" name="Gradle: aopalliance:aopalliance:1.0" />
+            <element id="library" level="project" name="Gradle: org.grails:grails-datastore-simple:5.0.10.RELEASE" />
+            <element id="library" level="project" name="Gradle: com.jayway.jsonpath:json-path:2.0.0" />
+            <element id="library" level="project" name="Gradle: io.projectreactor.spring:reactor-spring-core:2.0.7.RELEASE" />
+            <element id="library" level="project" name="Gradle: com.goldmansachs:gs-collections:5.1.0" />
+            <element id="library" level="project" name="Gradle: commons-collections:commons-collections:3.2.2" />
+            <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy-ant:2.4.7" />
+            <element id="library" level="project" name="Gradle: io.netty:netty:3.5.5.Final" />
+            <element id="library" level="project" name="Gradle: org.codehaus.jettison:jettison:1.1" />
+            <element id="library" level="project" name="Gradle: org.apache.httpcomponents:httpcore:4.4.5" />
+            <element id="library" level="project" name="Gradle: org.apache.httpcomponents:httpcore-nio:4.3" />
+            <element id="library" level="project" name="Gradle: net.minidev:json-smart:2.1.1" />
+            <element id="library" level="project" name="Gradle: com.goldmansachs:gs-collections-api:5.1.0" />
+            <element id="library" level="project" name="Gradle: org.apache.ant:ant:1.9.4" />
+            <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy-groovydoc:2.4.7" />
+            <element id="library" level="project" name="Gradle: org.apache.ant:ant-antlr:1.9.4" />
+            <element id="library" level="project" name="Gradle: org.apache.ant:ant-launcher:1.9.4" />
+            <element id="library" level="project" name="Gradle: org.apache.ant:ant-junit:1.9.4" />
+            <element id="library" level="project" name="Gradle: stax:stax-api:1.0.1" />
+            <element id="library" level="project" name="Gradle: net.minidev:asm:1.0.2" />
+            <element id="library" level="project" name="Gradle: asm:asm:3.3.1" />
+            <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-jndi:9.2.18.v20160721" />
+            <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-el-api:8.0.36" />
+            <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-servlet-api:8.0.36" />
+            <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-juli:8.0.36" />
+            <element id="library" level="project" name="Gradle: commons-codec:commons-codec:1.6" />
+            <element id="library" level="project" name="Gradle: com.bertramlabs.plugins:asset-pipeline-core:2.8.1" />
+            <element id="library" level="project" name="Gradle: com.google.javascript:closure-compiler:v20151015" />
+            <element id="library" level="project" name="Gradle: org.jruby:jruby-complete:1.7.18" />
+            <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/grails-cookie/2.0.3/8c1c19a16329269418164a7cd3c865fe03450a69/grails-cookie-2.0.3.jar" />
           </element>
         </element>
       </root>
@@ -1674,6 +1675,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/geb/1.0.2/cad60e3934960f08a4652c4a89065846eeb91bf0/geb-1.0.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: org.grails.plugins:grails-cookie:2.0.3">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/grails-cookie/2.0.3/8c1c19a16329269418164a7cd3c865fe03450a69/grails-cookie-2.0.3.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/grails-cookie/2.0.3/f4d6f61672d482710cecdd4358eddde6f4771ff9/grails-cookie-2.0.3-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: org.grails.plugins:hibernate:4.3.10.7">

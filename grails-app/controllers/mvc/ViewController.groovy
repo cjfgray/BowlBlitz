@@ -6,4 +6,5 @@ class ViewController {
     def scoreboard() { }
     def index() { }
     def user() { }
+    def pick() { }
 }

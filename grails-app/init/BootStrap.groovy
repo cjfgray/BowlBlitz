@@ -51,6 +51,15 @@ class BootStrap {
             ]
         }
 
+        JSON.registerObjectMarshaller(User) { User user ->
+            [
+                    email: user.email,
+                    firstName: user.firstName,
+                    lastName: user.lastName,
+                    isAdmin: user.isAdmin
+            ]
+        }
+
         JSON.registerObjectMarshaller(Pick) { Pick pick ->
             [
                     bowl: pick.bowl,

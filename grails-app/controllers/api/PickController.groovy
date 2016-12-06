@@ -10,13 +10,13 @@ class PickController extends BaseController {
 
     def list(int season) {
         Ok {
-            pickService.list(request.user as User, season)
+            pickService.list(season, request.user as User)
         }
     }
 
-    def updatePicks(List<PickCommand> picks) {
+    def updatePicks() {
         NoContent {
-            pickService.updatePicks(picks, request.user as User)
+            pickService.updatePicks(request.JSON as List<Map<String, Integer>>, request.user as User)
         }
     }
 }

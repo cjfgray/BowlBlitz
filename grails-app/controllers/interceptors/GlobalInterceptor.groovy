@@ -1,6 +1,7 @@
 package interceptors
 
 import bowlblitz.User
+import bowlblitz.UserService
 import bowlblitz.traits.BowlBlitzSecurity
 import ctokens.TokenUser
 import grails.artefact.Interceptor
@@ -9,6 +10,8 @@ import groovy.transform.CompileStatic
 @CompileStatic
 class GlobalInterceptor implements Interceptor, BowlBlitzSecurity {
     int order = LOWEST_PRECEDENCE
+
+    UserService userService
 
     GlobalInterceptor() { matchAll().excludes(controller: "authentication") }
 
@@ -23,7 +26,7 @@ class GlobalInterceptor implements Interceptor, BowlBlitzSecurity {
         println "GLOBAL INTERCEPTOR"
 
         TokenUser tu = processRequest(request, flash)
-        User user = User.findByEmail(tu.user.email)
+        User user = userService.findByEmail(tu.user.email as String)
 
         if (!user) {
             render(status: 401)

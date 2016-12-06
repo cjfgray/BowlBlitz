@@ -5,7 +5,7 @@ import grails.transaction.Transactional
 @Transactional
 class UserService {
 
-    def serviceMethod() {
-
+    User findByEmail(String email) {
+        User.findByEmail(email)
     }
 }

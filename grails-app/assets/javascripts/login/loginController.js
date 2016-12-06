@@ -11,13 +11,15 @@ angular.module('authentication', [])
         };
 
         loginCtrl.login = () => {
-            console.log(loginCtrl.user);
             authService.login(loginCtrl.user).then(
                 success => {
                     location.href = '/view/scoreboard';
                 },
                 failure => {
-                    console.log(failure)
+                    if(failure.status == 401)
+                        alert("Invalid user id or password. Please re-enter and try again.");
+                    else
+                        alert(failure.statusText);
                 }
             )
         }

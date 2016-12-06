@@ -22,9 +22,11 @@ class GlobalInterceptor implements Interceptor, BowlBlitzSecurity {
 
         println "GLOBAL INTERCEPTOR"
 
-        TokenUser user = processRequest(request, flash)
+        TokenUser tu = processRequest(request, flash)
+        User user = User.findByEmail(tu.user.email)
+
         if (!user) {
-            render(status: 401, text: "")
+            render(status: 401)
             return false
         }
 

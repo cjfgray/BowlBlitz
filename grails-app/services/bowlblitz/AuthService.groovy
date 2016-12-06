@@ -40,7 +40,7 @@ class AuthService implements BowlBlitzConfig {
         }
 
         if (resp.status == 401)
-            throw new Exception("Unauthorized")
+            return null
         else if (!resp.statusCode.'2xxSuccessful')
             throw new Exception(resp.text)
 

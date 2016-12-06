@@ -19,5 +19,6 @@ class UrlMappings {
         "/api/bowl"(controller: "bowl", action: "create", method: "POST")
 
         "/api/pick"(controller: "pick", action: "updatePicks", method: "PUT")
+        "/api/pick/$season"(controller: "pick", action: "list", method: "GET")
     }
 }

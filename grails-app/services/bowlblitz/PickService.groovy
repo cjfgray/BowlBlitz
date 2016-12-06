@@ -6,6 +6,12 @@ import grails.transaction.Transactional
 @Transactional
 class PickService {
 
+    List<Pick> list(User user, int seasonYear) {
+        League league = League.findByName("global")
+        Season season = Season.findByYear(seasonYear)
+        Pick.findAllByUserAndSeasonAndLeague(user, season, league)
+    }
+
     def updatePicks(List<PickCommand> picks, User user) {
         League globalLeage = League.findByName("global")
         picks.each { PickCommand pick ->

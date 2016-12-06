@@ -15,12 +15,9 @@ class AuthenticationController {
     def login(LoginCommand loginCommand) {
         TokenUser user = authService.authenticate(loginCommand) as TokenUser
 
-        println((user as JSON).toString(true))
+        if (!user)
+            return render(status: 401)
 
-        if (!user) {
-            flash.error = "Invalid user id or password. Please re-enter and try again."
-            return redirect(controller: "authentication", action: "index")
-        }
 //        String _redirect = authService.getRedirect()
 
         authService.setCookies(user.token)
@@ -28,7 +25,7 @@ class AuthenticationController {
 //            authService.removeRedirect()
 //            redirect(url: _redirect)
 //        }
-        render status: 200
+        render(status: 200)
     }
 
 

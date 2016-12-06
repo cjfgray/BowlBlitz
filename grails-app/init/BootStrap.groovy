@@ -51,6 +51,16 @@ class BootStrap {
             ]
         }
 
+        JSON.registerObjectMarshaller(Pick) { Pick pick ->
+            [
+                    bowl: pick.bowl,
+                    user: pick.user,
+                    winner: pick.winnerId,
+                    season: pick.season,
+                    league: pick.league.name
+            ]
+        }
+
         JSON.registerObjectMarshaller(Location) { Location location ->
             [
                     stadiumName: location.stadiumName,

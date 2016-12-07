@@ -47,7 +47,8 @@ class BootStrap {
                     team2: bowl.team2,
                     bowlDate: bowl.bowlDate,
                     season: bowl.season,
-                    location: bowl.location
+                    location: bowl.location,
+                    winner: bowl.winner ? bowl.winner.id : ""
             ]
         }
 

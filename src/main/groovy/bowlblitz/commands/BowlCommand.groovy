@@ -7,3 +7,8 @@ class BowlCommand {
     String bowlDate
     String season
 }
+
+class AddWinnerCommand {
+    Long bowlId
+    Long winnerId
+}

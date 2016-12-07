@@ -45,7 +45,7 @@
     </div>
     <div class="row">
         <div class="col-lg-12">
-            <button class="btn btn-primary btn-block">Submit</button>
+            <button class="btn btn-primary btn-block" ng-click="adminCtrl.submitWinners()">Submit</button>
         </div>
     </div>
 </div>

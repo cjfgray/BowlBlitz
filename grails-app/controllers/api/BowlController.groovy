@@ -2,6 +2,7 @@ package api
 
 import bowlblitz.BaseController
 import bowlblitz.BowlService
+import bowlblitz.commands.AddWinnerCommand
 import bowlblitz.commands.BowlCommand
 
 class BowlController extends BaseController {
@@ -13,5 +14,9 @@ class BowlController extends BaseController {
 
     def create(BowlCommand bowlCommand) {
         Ok { bowlService.create(bowlCommand) }
+    }
+
+    def addWinner() {
+        bowlService.addWinner(request.JSON as List<Map<String, String>>)
     }
 }

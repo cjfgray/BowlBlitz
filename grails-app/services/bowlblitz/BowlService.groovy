@@ -38,8 +38,6 @@ class BowlService {
     }
 
     def addWinner(List<Map<String, String>> bowls) {
-        println((bowls as JSON).toString(true))
-
         bowls.each { b ->
             Bowl bowl = Bowl.findById(b.bowlId as Long)
             if(!bowl)

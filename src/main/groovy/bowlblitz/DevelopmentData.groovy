@@ -26,5 +26,10 @@ class DevelopmentData {
         bowls.each { bowl ->
             new Pick(bowl: bowl, user: cjfgray, winner: bowl.team1, season: season, league: league).save()
         }
+
+        User cj = new User(email: "cjfgray@gmail.com", firstName: "Cameron", lastName: "Gray", isAdmin: true).save()
+        bowls.each { bowl ->
+            new Pick(bowl: bowl, user: cj, winner: bowl.team1, season: season, league: league).save()
+        }
     }
 }

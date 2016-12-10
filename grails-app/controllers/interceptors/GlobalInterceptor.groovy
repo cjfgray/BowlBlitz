@@ -23,8 +23,6 @@ class GlobalInterceptor implements Interceptor, BowlBlitzSecurity {
         header("Access-Control-Allow-Origin", "*")
         header("Access-Control-Allow-Credentials", "true")
 
-        println "GLOBAL INTERCEPTOR"
-
         TokenUser tu = processRequest(request, flash)
         User user = userService.findByEmail(tu.user.email as String)
 

@@ -22,5 +22,7 @@ class UrlMappings {
 
         "/api/pick"(controller: "pick", action: "updatePicks", method: "PUT")
         "/api/pick/$season"(controller: "pick", action: "list", method: "GET")
+
+        "/api/scores"(controller: "scoreboard", action: "scores", method: "GET")
     }
 }

@@ -14,7 +14,6 @@ class PickService {
 
     def updatePicks(List<Map<String, Integer>> picks, User user) {
         League globalLeague = League.findByName("global")
-        println picks
         picks.each { pick ->
             Bowl bowl = Bowl.findById(pick.bowlId as Long)
             Team winner = Team.findById(pick.teamId as Long)

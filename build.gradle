@@ -63,23 +63,17 @@ dependencies {
     compile "org.grails:grails-datastore-rest-client:5.0.0.RC2"
     compile "org.grails.plugins:grails-cookie:2.0.3"
 
+    compile 'mysql:mysql-connector-java:6.0.5'
 
     compile "org.grails.plugins:hibernate"
     compile "org.grails.plugins:cache"
     compile "org.hibernate:hibernate-ehcache"
     assets 'com.bertramlabs.plugins:sass-asset-pipeline:2.7.4'
-    console "org.grails:grails-console"
     profile "org.grails.profiles:web:3.1.4"
     runtime "org.grails.plugins:asset-pipeline"
-    runtime "org.grails.plugins:scaffolding"
 
     testCompile "org.grails:grails-plugin-testing"
     testCompile "org.grails.plugins:geb"
-
-    // Note: It is recommended to update to a more robust driver (Chrome, Firefox etc.)
-    testRuntime 'org.seleniumhq.selenium:selenium-htmlunit-driver:2.44.0'
-
-    console "org.grails:grails-console"
 
     compile 'org.eclipse.jetty:jetty-runner:9.2.11.v20150529'
     compile 'com.github.jsimone:webapp-runner:8.0.30.2'
